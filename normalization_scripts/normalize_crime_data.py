@@ -12,6 +12,10 @@ import pandas as pd
 import numpy as np
 from typing import Tuple, Dict, List
 import re
+from pathlib import Path
+
+# Ścieżka do katalogu głównego projektu
+PROJECT_ROOT = Path(__file__).parent.parent
 
 
 # Mapowanie kategorii do krótszych nazw (angielski)
@@ -52,22 +56,22 @@ CRIME_CATEGORIES_MAP = {
 def load_crime_data(file_path: str) -> pd.DataFrame:
     """
     Wczytuje surowe dane o przestępczości z pliku Excel
-    
+
     Args:
         file_path: ścieżka do pliku Excel
-    
+
     Returns:
         DataFrame z surowymi danymi (wide format)
     """
     # Wczytaj header (2 wiersze)
     df_header = pd.read_excel(file_path, sheet_name='TABLICA', nrows=2, header=None)
-    
+
     # Przygotuj nazwy kolumn
     row0 = df_header.iloc[0].ffill()  # Kategoria przestępstwa
     row1 = df_header.iloc[1]          # Rok
-    
-    # Wczytaj dane (od 3 wiersza)
-    df_data = pd.read_excel(file_path, sheet_name='TABLICA', skiprows=2)
+
+    # Wczytaj dane (od 3 wiersza) - KOD JAKO STRING!
+    df_data = pd.read_excel(file_path, sheet_name='TABLICA', skiprows=2, dtype={0: str})
     
     # Nadaj właściwe nazwy kolumnom
     new_columns = []
@@ -124,7 +128,7 @@ def convert_to_long_format(df_wide: pd.DataFrame) -> pd.DataFrame:
     # Konwersja typów
     df_long['year'] = df_long['year'].astype(int)
     df_long['value'] = pd.to_numeric(df_long['value'], errors='coerce')
-    df_long['region_code'] = pd.to_numeric(df_long['region_code'], errors='coerce')
+    # region_code pozostaje jako string (zachowuje początkowe zera)
     
     # Określ typ metryki
     def get_metric_type(category):
@@ -163,16 +167,20 @@ def convert_to_long_format(df_wide: pd.DataFrame) -> pd.DataFrame:
 def filter_powiaty_only(df_long: pd.DataFrame) -> pd.DataFrame:
     """
     Filtruje dane - zostawia tylko powiaty (bez POLSKA i województw)
-    
+
     Args:
         df_long: DataFrame w long format
-    
+
     Returns:
-        DataFrame tylko z powiatami (region_code >= 200000)
+        DataFrame tylko z powiatami (region_code >= 0200000)
     """
-    # Kody powiatów zaczynają się od 200000
-    df_powiaty = df_long[df_long['region_code'] >= 200000].copy()
-    
+    # Kody powiatów zaczynają się od 0200000 (7 cyfr)
+    # Filtruj: wykluczamy POLSKA ('0000000') ale zachowujemy województwa i powiaty
+    df_powiaty = df_long[
+        (df_long['region_code'] != '0000000') &
+        (df_long['region_code'].notna())
+    ].copy()
+
     return df_powiaty
 
 
@@ -239,7 +247,7 @@ def validate_data(df_long: pd.DataFrame) -> dict:
     results = {
         'total_rows': len(df_long),
         'unique_regions': df_long['region_code'].nunique(),
-        'unique_powiaty': len(df_long[df_long['region_code'] >= 200000]['region_code'].unique()),
+        'unique_powiaty': len(df_long[df_long['region_code'].str.startswith('02', na=False)]['region_code'].unique()),
         'years_range': (df_long['year'].min(), df_long['year'].max()),
         'crime_categories': df_long['crime_category'].nunique(),
         'metric_types': df_long['metric_type'].unique().tolist(),
@@ -251,7 +259,7 @@ def validate_data(df_long: pd.DataFrame) -> dict:
 
 
 print("Wczytywanie danych o przestępczości...")
-df_wide = load_crime_data('./data/przestepstwa_2013-2024.xlsx')
+df_wide = load_crime_data(PROJECT_ROOT / 'data' / 'przestepstwa_2013-2024.xlsx')
 print(f"Rozmiar (wide format): {df_wide.shape}")
 print(f"\nPierwsze wiersze:")
 print(df_wide.head())
@@ -306,18 +314,18 @@ print("\n" + "="*80)
 print("Zapisywanie do plików CSV...")
 
 # Pełne dane - wszystkie regiony
-df_long.to_csv('./output/crime/crime_long_format_all_regions.csv', index=False)
+df_long.to_csv(PROJECT_ROOT / 'output' / 'crime' / 'crime_long_format_all_regions.csv', index=False)
 
 # Tylko powiaty
-df_powiaty.to_csv('./output/crime/crime_long_format_powiaty.csv', index=False)
+df_powiaty.to_csv(PROJECT_ROOT / 'output' / 'crime' / 'crime_long_format_powiaty.csv', index=False)
 
 # Według typu metryki (tylko powiaty)
-df_by_metric['count'].to_csv('./output/crime/crime_counts_powiaty.csv', index=False)
-df_by_metric['detection_rate'].to_csv('./output/crime/crime_detection_rates_powiaty.csv', index=False)
-df_by_metric['rate_per_1000'].to_csv('./output/crime/crime_rates_per_1000_powiaty.csv', index=False)
+df_by_metric['count'].to_csv(PROJECT_ROOT / 'output' / 'crime' / 'crime_counts_powiaty.csv', index=False)
+df_by_metric['detection_rate'].to_csv(PROJECT_ROOT / 'output' / 'crime' / 'crime_detection_rates_powiaty.csv', index=False)
+df_by_metric['rate_per_1000'].to_csv(PROJECT_ROOT / 'output' / 'crime' / 'crime_rates_per_1000_powiaty.csv', index=False)
 
 # Zagregowana tabela
-df_total.to_csv('./output/crime/crime_total_powiaty.csv', index=False)
+df_total.to_csv(PROJECT_ROOT / 'output' / 'crime' / 'crime_total_powiaty.csv', index=False)
 
 print("\n✓ Gotowe!")
 print("\nUzyskane pliki:")

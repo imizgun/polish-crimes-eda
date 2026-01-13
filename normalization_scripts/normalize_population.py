@@ -6,6 +6,10 @@ Konwertuje wide format (290 kolumn) do long format (tidy data)
 import pandas as pd
 import numpy as np
 from typing import Tuple, List
+from pathlib import Path
+
+# Ścieżka do katalogu głównego projektu (nadrzędny katalog względem tego skryptu)
+PROJECT_ROOT = Path(__file__).parent.parent
 
 
 def load_population_data(file_path: str) -> pd.DataFrame:
@@ -20,14 +24,14 @@ def load_population_data(file_path: str) -> pd.DataFrame:
     """
     # Najpierw wczytaj header (3 wiersze)
     df_header = pd.read_excel(file_path, sheet_name='TABLICA', nrows=3, header=None)
-    
+
     # Przygotuj nazwy kolumn z multi-level header
     row0 = df_header.iloc[0].ffill()  # Grupa wiekowa
     row1 = df_header.iloc[1].ffill()  # Płeć
     row2 = df_header.iloc[2]          # Rok
-    
-    # Wczytaj dane właściwe (od 4 wiersza)
-    df_data = pd.read_excel(file_path, sheet_name='TABLICA', skiprows=3)
+
+    # Wczytaj dane właściwe (od 4 wiersza) - KOD JAKO STRING!
+    df_data = pd.read_excel(file_path, sheet_name='TABLICA', skiprows=3, dtype={0: str})
     
     # Nadaj właściwe nazwy kolumnom
     new_columns = []
@@ -86,7 +90,7 @@ def convert_to_long_format(df_wide: pd.DataFrame) -> pd.DataFrame:
     # Konwersja typów
     df_long['year'] = df_long['year'].astype(int)
     df_long['population'] = pd.to_numeric(df_long['population'], errors='coerce')
-    df_long['powiat_code'] = df_long['powiat_code'].astype(int)
+    # powiat_code pozostaje jako string (zachowuje początkowe zera)
     
     # Usuń pomocniczą kolumnę
     df_long = df_long.drop('variable', axis=1)
@@ -269,7 +273,7 @@ def validate_data(df_long: pd.DataFrame) -> dict:
 # ============================================================================
 
 print("Wczytywanie danych...")
-df_wide = load_population_data('./data/ludnosc_2013-2024.xlsx')
+df_wide = load_population_data(PROJECT_ROOT / 'data' / 'ludnosc_2013-2024.xlsx')
 print(f"Rozmiar (wide format): {df_wide.shape}")
 
 # 2. Konwertuj do long format
@@ -310,11 +314,11 @@ print(df_with_changes.head(15))
 
 # 5. Zapisz do plików
 print("\nZapisywanie do plików CSV...")
-df_long.to_csv('./output/population/population_long_format.csv', index=False)
-df_total.to_csv('./output/population/population_total.csv', index=False)
-df_gender.to_csv('./output/population/population_gender.csv', index=False)
-df_age.to_csv('./output/population/population_age_groups.csv', index=False)
-df_with_changes.to_csv('./output/population/population_with_changes.csv', index=False)
+df_long.to_csv(PROJECT_ROOT / 'output' / 'population' / 'population_long_format.csv', index=False)
+df_total.to_csv(PROJECT_ROOT / 'output' / 'population' / 'population_total.csv', index=False)
+df_gender.to_csv(PROJECT_ROOT / 'output' / 'population' / 'population_gender.csv', index=False)
+df_age.to_csv(PROJECT_ROOT / 'output' / 'population' / 'population_age_groups.csv', index=False)
+df_with_changes.to_csv(PROJECT_ROOT / 'output' / 'population' / 'population_with_changes.csv', index=False)
 
 print("\n✓ Gotowe!")
 print("\nUzyskane pliki:")

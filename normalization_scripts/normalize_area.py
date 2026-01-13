@@ -6,6 +6,10 @@ Konwertuje wide format (14 kolumn: Kod, Nazwa, 2013-2024) do long format
 import pandas as pd
 import numpy as np
 from typing import Tuple
+from pathlib import Path
+
+# Ścieżka do katalogu głównego projektu
+PROJECT_ROOT = Path(__file__).parent.parent
 
 
 def load_area_data(file_path: str) -> pd.DataFrame:
@@ -20,9 +24,9 @@ def load_area_data(file_path: str) -> pd.DataFrame:
     """
     # Wczytaj header (2 wiersze)
     df_header = pd.read_excel(file_path, sheet_name='TABLICA', nrows=2, header=None)
-    
-    # Wczytaj dane (od 3 wiersza)
-    df_data = pd.read_excel(file_path, sheet_name='TABLICA', skiprows=2)
+
+    # Wczytaj dane (od 3 wiersza) - KOD JAKO STRING!
+    df_data = pd.read_excel(file_path, sheet_name='TABLICA', skiprows=2, dtype={0: str})
     
     # Przygotuj nazwy kolumn
     new_columns = ['powiat_code', 'powiat_name']
@@ -71,7 +75,7 @@ def convert_to_long_format(df_wide: pd.DataFrame) -> pd.DataFrame:
     df_long = df_long.drop('year_col', axis=1)
     
     # Konwersja typów
-    df_long['powiat_code'] = df_long['powiat_code'].astype(int)
+    # powiat_code pozostaje jako string (zachowuje początkowe zera)
     df_long['area_km2'] = pd.to_numeric(df_long['area_km2'], errors='coerce')
     
     # Zmień kolejność kolumn
@@ -179,7 +183,7 @@ def merge_with_population(df_area: pd.DataFrame, df_population: pd.DataFrame) ->
 
 # 1. Wczytaj dane o powierzchni
 print("Wczytywanie danych o powierzchni...")
-df_wide = load_area_data('./data/powierzchnia_2013-2024.xlsx')
+df_wide = load_area_data(PROJECT_ROOT / 'data' / 'powierzchnia_2013-2024.xlsx')
 print(f"Rozmiar (wide format): {df_wide.shape}")
 print(f"\nPierwsze wiersze:")
 print(df_wide.head())
@@ -225,7 +229,11 @@ print(f"Min: {df_2024['area_km2'].min():.2f} km², Max: {df_2024['area_km2'].max
 print("\n" + "="*80)
 print("Łączenie z danymi o ludności...")
 try:
-    df_population = pd.read_csv('./output/area/population_total.csv')
+    # Wczytaj z powiat_code jako string!
+    df_population = pd.read_csv(
+        PROJECT_ROOT / 'output' / 'population' / 'population_total.csv',
+        dtype={'powiat_code': str}
+    )
     df_with_density = merge_with_population(df_long, df_population)
     
     print(f"Rozmiar po merge: {df_with_density.shape}")
@@ -239,18 +247,18 @@ try:
     print(f"  Max: {df_with_density['population_density'].max():.2f} osób/km²")
     
     # Zapisz połączone dane
-    df_with_density.to_csv('./output/area/population_with_density.csv', index=False)
+    df_with_density.to_csv(PROJECT_ROOT / 'output' / 'population' / 'population_with_density.csv', index=False)
     print("\n✓ Zapisano: population_with_density.csv")
-    
+
 except FileNotFoundError:
     print("Plik population_total.csv nie znaleziony. Pomiń merge.")
 
 # 7. Zapisz do plików
 print("\n" + "="*80)
 print("Zapisywanie do plików CSV...")
-df_long.to_csv('./output/area/area_long_format.csv', index=False)
-df_2024.to_csv('./output/area/area_2024.csv', index=False)
-stats.to_csv('./output/area/area_statistics.csv', index=False)
+df_long.to_csv(PROJECT_ROOT / 'output' / 'area' / 'area_long_format.csv', index=False)
+df_2024.to_csv(PROJECT_ROOT / 'output' / 'area' / 'area_2024.csv', index=False)
+stats.to_csv(PROJECT_ROOT / 'output' / 'area' / 'area_statistics.csv', index=False)
 
 print("\n✓ Gotowe!")
 print("\nUzyskane pliki:")

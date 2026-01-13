@@ -1,95 +1,95 @@
 powiat_code,powiat_name,area_km2
-201000,Powiat bolesławiecki,1303
-202000,Powiat dzierżoniowski,479
-203000,Powiat głogowski,443
-204000,Powiat górowski,738
-205000,Powiat jaworski,581
-206000,Powiat karkonoski,627
-207000,Powiat kamiennogórski,396
-208000,Powiat kłodzki,1643
-209000,Powiat legnicki,744
-210000,Powiat lubański,428
-211000,Powiat lubiński,712
-212000,Powiat lwówecki,710
-213000,Powiat milicki,715
-214000,Powiat oleśnicki,1049
-215000,Powiat oławski,524
-216000,Powiat polkowicki,780
-217000,Powiat strzeliński,622
-218000,Powiat średzki,704
-219000,Powiat świdnicki,741
-220000,Powiat trzebnicki,1025
-221000,Powiat wałbrzyski,430
-222000,Powiat wołowski,675
-223000,Powiat wrocławski,1118
-224000,Powiat ząbkowicki,802
-225000,Powiat zgorzelecki,839
-226000,Powiat złotoryjski,576
-261000,Powiat m. Jelenia Góra,109
-262000,Powiat m. Legnica,56
-264000,Powiat m. Wrocław,293
-265000,Powiat m. Wałbrzych od 2013,85
-401000,Powiat aleksandrowski,475
-402000,Powiat brodnicki,1040
-403000,Powiat bydgoski,1394
-404000,Powiat chełmiński,527
-405000,Powiat golubsko-dobrzyński,613
-406000,Powiat grudziądzki,729
-407000,Powiat inowrocławski,1225
-408000,Powiat lipnowski,1016
-409000,Powiat mogileński,675
-410000,Powiat nakielski,1120
-411000,Powiat radziejowski,607
-412000,Powiat rypiński,587
-413000,Powiat sępoleński,791
-414000,Powiat świecki,1474
-415000,Powiat toruński,1230
-416000,Powiat tucholski,1075
-417000,Powiat wąbrzeski,501
-418000,Powiat włocławski,1472
-419000,Powiat żniński,985
-461000,Powiat m. Bydgoszcz,176
-462000,Powiat m. Grudziądz,58
-463000,Powiat m. Toruń,116
-464000,Powiat m. Włocławek,85
-601000,Powiat bialski,2754
-602000,Powiat biłgorajski,1681
-603000,Powiat chełmski,1881
-604000,Powiat hrubieszowski,1270
-605000,Powiat janowski,876
-606000,Powiat krasnostawski,1032
-607000,Powiat kraśnicki,1005
-608000,Powiat lubartowski,1289
-609000,Powiat lubelski,1680
-610000,Powiat łęczyński,637
-611000,Powiat łukowski,1394
-612000,Powiat opolski,811
-613000,Powiat parczewski,952
-614000,Powiat puławski,934
-615000,Powiat radzyński,965
-616000,Powiat rycki,614
-617000,Powiat świdnicki,468
-618000,Powiat tomaszowski,1487
-619000,Powiat włodawski,1256
-620000,Powiat zamojski,1870
-661000,Powiat m. Biała Podlaska,49
-662000,Powiat m. Chełm,40
-663000,Powiat m. Lublin,147
-664000,Powiat m. Zamość,30
-801000,Powiat gorzowski,1214
-802000,Powiat krośnieński,1390
-803000,Powiat międzyrzecki,1388
-804000,Powiat nowosolski,774
-805000,Powiat słubicki,999
-806000,Powiat strzelecko-drezdenecki,1248
-807000,Powiat sulęciński,1178
-808000,Powiat świebodziński,937
-809000,Powiat zielonogórski,1351
-810000,Powiat żagański,1131
-811000,Powiat żarski,1393
-812000,Powiat wschowski,624
-861000,Powiat m. Gorzów Wielkopolski,86
-862000,Powiat m. Zielona Góra,275
+0201000,Powiat bolesławiecki,1303
+0202000,Powiat dzierżoniowski,479
+0203000,Powiat głogowski,443
+0204000,Powiat górowski,738
+0205000,Powiat jaworski,581
+0206000,Powiat karkonoski,627
+0207000,Powiat kamiennogórski,396
+0208000,Powiat kłodzki,1643
+0209000,Powiat legnicki,744
+0210000,Powiat lubański,428
+0211000,Powiat lubiński,712
+0212000,Powiat lwówecki,710
+0213000,Powiat milicki,715
+0214000,Powiat oleśnicki,1049
+0215000,Powiat oławski,524
+0216000,Powiat polkowicki,780
+0217000,Powiat strzeliński,622
+0218000,Powiat średzki,704
+0219000,Powiat świdnicki,741
+0220000,Powiat trzebnicki,1025
+0221000,Powiat wałbrzyski,430
+0222000,Powiat wołowski,675
+0223000,Powiat wrocławski,1118
+0224000,Powiat ząbkowicki,802
+0225000,Powiat zgorzelecki,839
+0226000,Powiat złotoryjski,576
+0261000,Powiat m. Jelenia Góra,109
+0262000,Powiat m. Legnica,56
+0264000,Powiat m. Wrocław,293
+0265000,Powiat m. Wałbrzych od 2013,85
+0401000,Powiat aleksandrowski,475
+0402000,Powiat brodnicki,1040
+0403000,Powiat bydgoski,1394
+0404000,Powiat chełmiński,527
+0405000,Powiat golubsko-dobrzyński,613
+0406000,Powiat grudziądzki,729
+0407000,Powiat inowrocławski,1225
+0408000,Powiat lipnowski,1016
+0409000,Powiat mogileński,675
+0410000,Powiat nakielski,1120
+0411000,Powiat radziejowski,607
+0412000,Powiat rypiński,587
+0413000,Powiat sępoleński,791
+0414000,Powiat świecki,1474
+0415000,Powiat toruński,1230
+0416000,Powiat tucholski,1075
+0417000,Powiat wąbrzeski,501
+0418000,Powiat włocławski,1472
+0419000,Powiat żniński,985
+0461000,Powiat m. Bydgoszcz,176
+0462000,Powiat m. Grudziądz,58
+0463000,Powiat m. Toruń,116
+0464000,Powiat m. Włocławek,85
+0601000,Powiat bialski,2754
+0602000,Powiat biłgorajski,1681
+0603000,Powiat chełmski,1881
+0604000,Powiat hrubieszowski,1270
+0605000,Powiat janowski,876
+0606000,Powiat krasnostawski,1032
+0607000,Powiat kraśnicki,1005
+0608000,Powiat lubartowski,1289
+0609000,Powiat lubelski,1680
+0610000,Powiat łęczyński,637
+0611000,Powiat łukowski,1394
+0612000,Powiat opolski,811
+0613000,Powiat parczewski,952
+0614000,Powiat puławski,934
+0615000,Powiat radzyński,965
+0616000,Powiat rycki,614
+0617000,Powiat świdnicki,468
+0618000,Powiat tomaszowski,1487
+0619000,Powiat włodawski,1256
+0620000,Powiat zamojski,1870
+0661000,Powiat m. Biała Podlaska,49
+0662000,Powiat m. Chełm,40
+0663000,Powiat m. Lublin,147
+0664000,Powiat m. Zamość,30
+0801000,Powiat gorzowski,1214
+0802000,Powiat krośnieński,1390
+0803000,Powiat międzyrzecki,1388
+0804000,Powiat nowosolski,774
+0805000,Powiat słubicki,999
+0806000,Powiat strzelecko-drezdenecki,1248
+0807000,Powiat sulęciński,1178
+0808000,Powiat świebodziński,937
+0809000,Powiat zielonogórski,1351
+0810000,Powiat żagański,1131
+0811000,Powiat żarski,1393
+0812000,Powiat wschowski,624
+0861000,Powiat m. Gorzów Wielkopolski,86
+0862000,Powiat m. Zielona Góra,275
 1001000,Powiat bełchatowski,968
 1002000,Powiat kutnowski,887
 1003000,Powiat łaski,618

@@ -1,95 +1,95 @@
 powiat_code,powiat_name,area_min,area_max,area_mean,area_std,area_changed
-201000,Powiat bolesławiecki,1303,1304,1303.75,0.45226701686670817,True
-202000,Powiat dzierżoniowski,479,479,479.0,0.0,False
-203000,Powiat głogowski,443,443,443.0,0.0,False
-204000,Powiat górowski,738,738,738.0,0.0,False
-205000,Powiat jaworski,581,582,581.75,0.45226701686663096,True
-206000,Powiat karkonoski,627,627,627.0,0.0,False
-207000,Powiat kamiennogórski,396,396,396.0,0.0,False
-208000,Powiat kłodzki,1642,1643,1642.25,0.45226701686670817,True
-209000,Powiat legnicki,744,744,744.0,0.0,False
-210000,Powiat lubański,428,428,428.0,0.0,False
-211000,Powiat lubiński,712,712,712.0,0.0,False
-212000,Powiat lwówecki,710,710,710.0,0.0,False
-213000,Powiat milicki,715,715,715.0,0.0,False
-214000,Powiat oleśnicki,1049,1049,1049.0,0.0,False
-215000,Powiat oławski,524,524,524.0,0.0,False
-216000,Powiat polkowicki,779,780,779.25,0.45226701686663096,True
-217000,Powiat strzeliński,622,622,622.0,0.0,False
-218000,Powiat średzki,704,704,704.0,0.0,False
-219000,Powiat świdnicki,741,741,741.0,0.0,False
-220000,Powiat trzebnicki,1025,1025,1025.0,0.0,False
-221000,Powiat wałbrzyski,430,430,430.0,0.0,False
-222000,Powiat wołowski,675,675,675.0,0.0,False
-223000,Powiat wrocławski,1118,1118,1118.0,0.0,False
-224000,Powiat ząbkowicki,802,802,802.0,0.0,False
-225000,Powiat zgorzelecki,839,839,839.0,0.0,False
-226000,Powiat złotoryjski,576,576,576.0,0.0,False
-261000,Powiat m. Jelenia Góra,109,109,109.0,0.0,False
-262000,Powiat m. Legnica,56,56,56.0,0.0,False
-264000,Powiat m. Wrocław,293,293,293.0,0.0,False
-265000,Powiat m. Wałbrzych od 2013,85,85,85.0,0.0,False
-401000,Powiat aleksandrowski,475,475,475.0,0.0,False
-402000,Powiat brodnicki,1040,1040,1040.0,0.0,False
-403000,Powiat bydgoski,1394,1395,1394.5,0.5222329678671503,True
-404000,Powiat chełmiński,527,527,527.0,0.0,False
-405000,Powiat golubsko-dobrzyński,613,613,613.0,0.0,False
-406000,Powiat grudziądzki,728,729,728.25,0.45226701686663096,True
-407000,Powiat inowrocławski,1225,1225,1225.0,0.0,False
-408000,Powiat lipnowski,1016,1017,1016.0833333333334,0.28867513459481103,True
-409000,Powiat mogileński,675,675,675.0,0.0,False
-410000,Powiat nakielski,1120,1120,1120.0,0.0,False
-411000,Powiat radziejowski,607,607,607.0,0.0,False
-412000,Powiat rypiński,586,587,586.25,0.45226701686663096,True
-413000,Powiat sępoleński,791,791,791.0,0.0,False
-414000,Powiat świecki,1474,1474,1474.0,0.0,False
-415000,Powiat toruński,1230,1230,1230.0,0.0,False
-416000,Powiat tucholski,1075,1075,1075.0,0.0,False
-417000,Powiat wąbrzeski,501,502,501.75,0.45226701686664045,True
-418000,Powiat włocławski,1472,1474,1473.4166666666667,0.900336637378513,True
-419000,Powiat żniński,985,985,985.0,0.0,False
-461000,Powiat m. Bydgoszcz,176,176,176.0,0.0,False
-462000,Powiat m. Grudziądz,58,58,58.0,0.0,False
-463000,Powiat m. Toruń,116,116,116.0,0.0,False
-464000,Powiat m. Włocławek,84,85,84.33333333333333,0.4923659639173283,True
-601000,Powiat bialski,2754,2755,2754.5,0.5222329678670324,True
-602000,Powiat biłgorajski,1681,1681,1681.0,0.0,False
-603000,Powiat chełmski,1881,1887,1885.6666666666667,2.229281716090908,True
-604000,Powiat hrubieszowski,1268,1270,1268.5,0.9045340337332619,True
-605000,Powiat janowski,875,876,875.4166666666666,0.5149286505444398,True
-606000,Powiat krasnostawski,1031,1032,1031.5,0.5222329678671503,True
-607000,Powiat kraśnicki,1005,1005,1005.0,0.0,False
-608000,Powiat lubartowski,1289,1289,1289.0,0.0,False
-609000,Powiat lubelski,1680,1680,1680.0,0.0,False
-610000,Powiat łęczyński,637,637,637.0,0.0,False
-611000,Powiat łukowski,1394,1394,1394.0,0.0,False
-612000,Powiat opolski,810,811,810.25,0.45226701686663096,True
-613000,Powiat parczewski,952,952,952.0,0.0,False
-614000,Powiat puławski,934,934,934.0,0.0,False
-615000,Powiat radzyński,965,965,965.0,0.0,False
-616000,Powiat rycki,614,615,614.75,0.45226701686663096,True
-617000,Powiat świdnicki,468,468,468.0,0.0,False
-618000,Powiat tomaszowski,1487,1489,1488.5,0.9045340337332619,True
-619000,Powiat włodawski,1256,1256,1256.0,0.0,False
-620000,Powiat zamojski,1870,1870,1870.0,0.0,False
-661000,Powiat m. Biała Podlaska,49,49,49.0,0.0,False
-662000,Powiat m. Chełm,35,40,35.833333333333336,1.9462473604038082,True
-663000,Powiat m. Lublin,147,148,147.33333333333334,0.4923659639173313,True
-664000,Powiat m. Zamość,30,30,30.0,0.0,False
-801000,Powiat gorzowski,1214,1214,1214.0,0.0,False
-802000,Powiat krośnieński,1390,1391,1390.75,0.45226701686670817,True
-803000,Powiat międzyrzecki,1388,1388,1388.0,0.0,False
-804000,Powiat nowosolski,771,774,771.25,0.8660254037844386,True
-805000,Powiat słubicki,999,999,999.0,0.0,False
-806000,Powiat strzelecko-drezdenecki,1248,1248,1248.0,0.0,False
-807000,Powiat sulęciński,1178,1178,1178.0,0.0,False
-808000,Powiat świebodziński,937,937,937.0,0.0,False
-809000,Powiat zielonogórski,1350,1569,1386.75,85.12998083145348,True
-810000,Powiat żagański,1131,1132,1131.75,0.45226701686670817,True
-811000,Powiat żarski,1393,1393,1393.0,0.0,False
-812000,Powiat wschowski,624,624,624.0,0.0,False
-861000,Powiat m. Gorzów Wielkopolski,86,86,86.0,0.0,False
-862000,Powiat m. Zielona Góra,58,278,240.5,85.24883363638259,True
+0201000,Powiat bolesławiecki,1303,1304,1303.75,0.45226701686670817,True
+0202000,Powiat dzierżoniowski,479,479,479.0,0.0,False
+0203000,Powiat głogowski,443,443,443.0,0.0,False
+0204000,Powiat górowski,738,738,738.0,0.0,False
+0205000,Powiat jaworski,581,582,581.75,0.45226701686663096,True
+0206000,Powiat karkonoski,627,627,627.0,0.0,False
+0207000,Powiat kamiennogórski,396,396,396.0,0.0,False
+0208000,Powiat kłodzki,1642,1643,1642.25,0.45226701686670817,True
+0209000,Powiat legnicki,744,744,744.0,0.0,False
+0210000,Powiat lubański,428,428,428.0,0.0,False
+0211000,Powiat lubiński,712,712,712.0,0.0,False
+0212000,Powiat lwówecki,710,710,710.0,0.0,False
+0213000,Powiat milicki,715,715,715.0,0.0,False
+0214000,Powiat oleśnicki,1049,1049,1049.0,0.0,False
+0215000,Powiat oławski,524,524,524.0,0.0,False
+0216000,Powiat polkowicki,779,780,779.25,0.45226701686663096,True
+0217000,Powiat strzeliński,622,622,622.0,0.0,False
+0218000,Powiat średzki,704,704,704.0,0.0,False
+0219000,Powiat świdnicki,741,741,741.0,0.0,False
+0220000,Powiat trzebnicki,1025,1025,1025.0,0.0,False
+0221000,Powiat wałbrzyski,430,430,430.0,0.0,False
+0222000,Powiat wołowski,675,675,675.0,0.0,False
+0223000,Powiat wrocławski,1118,1118,1118.0,0.0,False
+0224000,Powiat ząbkowicki,802,802,802.0,0.0,False
+0225000,Powiat zgorzelecki,839,839,839.0,0.0,False
+0226000,Powiat złotoryjski,576,576,576.0,0.0,False
+0261000,Powiat m. Jelenia Góra,109,109,109.0,0.0,False
+0262000,Powiat m. Legnica,56,56,56.0,0.0,False
+0264000,Powiat m. Wrocław,293,293,293.0,0.0,False
+0265000,Powiat m. Wałbrzych od 2013,85,85,85.0,0.0,False
+0401000,Powiat aleksandrowski,475,475,475.0,0.0,False
+0402000,Powiat brodnicki,1040,1040,1040.0,0.0,False
+0403000,Powiat bydgoski,1394,1395,1394.5,0.5222329678671503,True
+0404000,Powiat chełmiński,527,527,527.0,0.0,False
+0405000,Powiat golubsko-dobrzyński,613,613,613.0,0.0,False
+0406000,Powiat grudziądzki,728,729,728.25,0.45226701686663096,True
+0407000,Powiat inowrocławski,1225,1225,1225.0,0.0,False
+0408000,Powiat lipnowski,1016,1017,1016.0833333333334,0.28867513459481103,True
+0409000,Powiat mogileński,675,675,675.0,0.0,False
+0410000,Powiat nakielski,1120,1120,1120.0,0.0,False
+0411000,Powiat radziejowski,607,607,607.0,0.0,False
+0412000,Powiat rypiński,586,587,586.25,0.45226701686663096,True
+0413000,Powiat sępoleński,791,791,791.0,0.0,False
+0414000,Powiat świecki,1474,1474,1474.0,0.0,False
+0415000,Powiat toruński,1230,1230,1230.0,0.0,False
+0416000,Powiat tucholski,1075,1075,1075.0,0.0,False
+0417000,Powiat wąbrzeski,501,502,501.75,0.45226701686664045,True
+0418000,Powiat włocławski,1472,1474,1473.4166666666667,0.900336637378513,True
+0419000,Powiat żniński,985,985,985.0,0.0,False
+0461000,Powiat m. Bydgoszcz,176,176,176.0,0.0,False
+0462000,Powiat m. Grudziądz,58,58,58.0,0.0,False
+0463000,Powiat m. Toruń,116,116,116.0,0.0,False
+0464000,Powiat m. Włocławek,84,85,84.33333333333333,0.4923659639173283,True
+0601000,Powiat bialski,2754,2755,2754.5,0.5222329678670324,True
+0602000,Powiat biłgorajski,1681,1681,1681.0,0.0,False
+0603000,Powiat chełmski,1881,1887,1885.6666666666667,2.229281716090908,True
+0604000,Powiat hrubieszowski,1268,1270,1268.5,0.9045340337332619,True
+0605000,Powiat janowski,875,876,875.4166666666666,0.5149286505444398,True
+0606000,Powiat krasnostawski,1031,1032,1031.5,0.5222329678671503,True
+0607000,Powiat kraśnicki,1005,1005,1005.0,0.0,False
+0608000,Powiat lubartowski,1289,1289,1289.0,0.0,False
+0609000,Powiat lubelski,1680,1680,1680.0,0.0,False
+0610000,Powiat łęczyński,637,637,637.0,0.0,False
+0611000,Powiat łukowski,1394,1394,1394.0,0.0,False
+0612000,Powiat opolski,810,811,810.25,0.45226701686663096,True
+0613000,Powiat parczewski,952,952,952.0,0.0,False
+0614000,Powiat puławski,934,934,934.0,0.0,False
+0615000,Powiat radzyński,965,965,965.0,0.0,False
+0616000,Powiat rycki,614,615,614.75,0.45226701686663096,True
+0617000,Powiat świdnicki,468,468,468.0,0.0,False
+0618000,Powiat tomaszowski,1487,1489,1488.5,0.9045340337332619,True
+0619000,Powiat włodawski,1256,1256,1256.0,0.0,False
+0620000,Powiat zamojski,1870,1870,1870.0,0.0,False
+0661000,Powiat m. Biała Podlaska,49,49,49.0,0.0,False
+0662000,Powiat m. Chełm,35,40,35.833333333333336,1.9462473604038082,True
+0663000,Powiat m. Lublin,147,148,147.33333333333334,0.4923659639173313,True
+0664000,Powiat m. Zamość,30,30,30.0,0.0,False
+0801000,Powiat gorzowski,1214,1214,1214.0,0.0,False
+0802000,Powiat krośnieński,1390,1391,1390.75,0.45226701686670817,True
+0803000,Powiat międzyrzecki,1388,1388,1388.0,0.0,False
+0804000,Powiat nowosolski,771,774,771.25,0.8660254037844386,True
+0805000,Powiat słubicki,999,999,999.0,0.0,False
+0806000,Powiat strzelecko-drezdenecki,1248,1248,1248.0,0.0,False
+0807000,Powiat sulęciński,1178,1178,1178.0,0.0,False
+0808000,Powiat świebodziński,937,937,937.0,0.0,False
+0809000,Powiat zielonogórski,1350,1569,1386.75,85.12998083145348,True
+0810000,Powiat żagański,1131,1132,1131.75,0.45226701686670817,True
+0811000,Powiat żarski,1393,1393,1393.0,0.0,False
+0812000,Powiat wschowski,624,624,624.0,0.0,False
+0861000,Powiat m. Gorzów Wielkopolski,86,86,86.0,0.0,False
+0862000,Powiat m. Zielona Góra,58,278,240.5,85.24883363638259,True
 1001000,Powiat bełchatowski,968,968,968.0,0.0,False
 1002000,Powiat kutnowski,887,887,887.0,0.0,False
 1003000,Powiat łaski,618,618,618.0,0.0,False

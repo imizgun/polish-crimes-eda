@@ -1,1156 +1,1156 @@
 region_code,region_name,year,unemployment_rate
-0,POLSKA,2013,13.4
-0,POLSKA,2014,11.4
-0,POLSKA,2015,9.7
-0,POLSKA,2016,8.2
-0,POLSKA,2017,6.6
-0,POLSKA,2018,5.8
-0,POLSKA,2019,5.2
-0,POLSKA,2020,6.3
-0,POLSKA,2021,5.8
-0,POLSKA,2022,5.2
-0,POLSKA,2023,5.1
-0,POLSKA,2024,5.1
-200000,DOLNOŚLĄSKIE,2013,13.1
-200000,DOLNOŚLĄSKIE,2014,10.4
-200000,DOLNOŚLĄSKIE,2015,8.5
-200000,DOLNOŚLĄSKIE,2016,7.2
-200000,DOLNOŚLĄSKIE,2017,5.7
-200000,DOLNOŚLĄSKIE,2018,5.2
-200000,DOLNOŚLĄSKIE,2019,4.6
-200000,DOLNOŚLĄSKIE,2020,5.6
-200000,DOLNOŚLĄSKIE,2021,4.9
-200000,DOLNOŚLĄSKIE,2022,4.5
-200000,DOLNOŚLĄSKIE,2023,4.4
-200000,DOLNOŚLĄSKIE,2024,4.6
-201000,Powiat bolesławiecki,2013,12.6
-201000,Powiat bolesławiecki,2014,8.9
-201000,Powiat bolesławiecki,2015,7.6
-201000,Powiat bolesławiecki,2016,5.7
-201000,Powiat bolesławiecki,2017,4.2
-201000,Powiat bolesławiecki,2018,3.8
-201000,Powiat bolesławiecki,2019,3.8
-201000,Powiat bolesławiecki,2020,5.6
-201000,Powiat bolesławiecki,2021,5.1
-201000,Powiat bolesławiecki,2022,3.1
-201000,Powiat bolesławiecki,2023,2.8
-201000,Powiat bolesławiecki,2024,3.1
-202000,Powiat dzierżoniowski,2013,20.2
-202000,Powiat dzierżoniowski,2014,15.8
-202000,Powiat dzierżoniowski,2015,11.9
-202000,Powiat dzierżoniowski,2016,10.0
-202000,Powiat dzierżoniowski,2017,7.4
-202000,Powiat dzierżoniowski,2018,6.1
-202000,Powiat dzierżoniowski,2019,5.2
-202000,Powiat dzierżoniowski,2020,6.8
-202000,Powiat dzierżoniowski,2021,5.5
-202000,Powiat dzierżoniowski,2022,5.2
-202000,Powiat dzierżoniowski,2023,5.6
-202000,Powiat dzierżoniowski,2024,6.1
-203000,Powiat głogowski,2013,14.9
-203000,Powiat głogowski,2014,13.6
-203000,Powiat głogowski,2015,12.5
-203000,Powiat głogowski,2016,10.5
-203000,Powiat głogowski,2017,9.1
-203000,Powiat głogowski,2018,8.9
-203000,Powiat głogowski,2019,7.1
-203000,Powiat głogowski,2020,7.8
-203000,Powiat głogowski,2021,7.7
-203000,Powiat głogowski,2022,6.4
-203000,Powiat głogowski,2023,6.5
-203000,Powiat głogowski,2024,6.6
-204000,Powiat górowski,2013,28.3
-204000,Powiat górowski,2014,23.4
-204000,Powiat górowski,2015,22.2
-204000,Powiat górowski,2016,18.5
-204000,Powiat górowski,2017,16.5
-204000,Powiat górowski,2018,15.3
-204000,Powiat górowski,2019,14.2
-204000,Powiat górowski,2020,15.7
-204000,Powiat górowski,2021,18.3
-204000,Powiat górowski,2022,13.8
-204000,Powiat górowski,2023,14.2
-204000,Powiat górowski,2024,14.3
-205000,Powiat jaworski,2013,24.3
-205000,Powiat jaworski,2014,18.6
-205000,Powiat jaworski,2015,17.3
-205000,Powiat jaworski,2016,15.8
-205000,Powiat jaworski,2017,13.5
-205000,Powiat jaworski,2018,12.4
-205000,Powiat jaworski,2019,10.6
-205000,Powiat jaworski,2020,11.3
-205000,Powiat jaworski,2021,10.8
-205000,Powiat jaworski,2022,10.2
-205000,Powiat jaworski,2023,9.7
-205000,Powiat jaworski,2024,9.8
-206000,Powiat karkonoski,2013,19.8
-206000,Powiat karkonoski,2014,15.7
-206000,Powiat karkonoski,2015,12.9
-206000,Powiat karkonoski,2016,11.4
-206000,Powiat karkonoski,2017,9.2
-206000,Powiat karkonoski,2018,8.9
-206000,Powiat karkonoski,2019,8.2
-206000,Powiat karkonoski,2020,10.1
-206000,Powiat karkonoski,2021,10.5
-206000,Powiat karkonoski,2022,8.5
-206000,Powiat karkonoski,2023,8.5
-206000,Powiat karkonoski,2024,8.5
-207000,Powiat kamiennogórski,2013,20.5
-207000,Powiat kamiennogórski,2014,15.6
-207000,Powiat kamiennogórski,2015,11.6
-207000,Powiat kamiennogórski,2016,10.3
-207000,Powiat kamiennogórski,2017,7.5
-207000,Powiat kamiennogórski,2018,6.2
-207000,Powiat kamiennogórski,2019,5.8
-207000,Powiat kamiennogórski,2020,8.0
-207000,Powiat kamiennogórski,2021,6.6
-207000,Powiat kamiennogórski,2022,6.1
-207000,Powiat kamiennogórski,2023,6.1
-207000,Powiat kamiennogórski,2024,7.4
-208000,Powiat kłodzki,2013,27.1
-208000,Powiat kłodzki,2014,23.6
-208000,Powiat kłodzki,2015,19.9
-208000,Powiat kłodzki,2016,16.0
-208000,Powiat kłodzki,2017,12.5
-208000,Powiat kłodzki,2018,11.8
-208000,Powiat kłodzki,2019,11.1
-208000,Powiat kłodzki,2020,12.6
-208000,Powiat kłodzki,2021,12.5
-208000,Powiat kłodzki,2022,11.8
-208000,Powiat kłodzki,2023,11.7
-208000,Powiat kłodzki,2024,12.7
-209000,Powiat legnicki,2013,21.3
-209000,Powiat legnicki,2014,17.4
-209000,Powiat legnicki,2015,14.8
-209000,Powiat legnicki,2016,13.0
-209000,Powiat legnicki,2017,11.5
-209000,Powiat legnicki,2018,10.1
-209000,Powiat legnicki,2019,8.1
-209000,Powiat legnicki,2020,8.7
-209000,Powiat legnicki,2021,8.4
-209000,Powiat legnicki,2022,8.1
-209000,Powiat legnicki,2023,7.3
-209000,Powiat legnicki,2024,7.0
-210000,Powiat lubański,2013,21.6
-210000,Powiat lubański,2014,17.8
-210000,Powiat lubański,2015,14.2
-210000,Powiat lubański,2016,11.3
-210000,Powiat lubański,2017,9.3
-210000,Powiat lubański,2018,7.3
-210000,Powiat lubański,2019,6.9
-210000,Powiat lubański,2020,8.9
-210000,Powiat lubański,2021,8.0
-210000,Powiat lubański,2022,7.1
-210000,Powiat lubański,2023,6.7
-210000,Powiat lubański,2024,7.1
-211000,Powiat lubiński,2013,10.9
-211000,Powiat lubiński,2014,8.9
-211000,Powiat lubiński,2015,7.0
-211000,Powiat lubiński,2016,5.9
-211000,Powiat lubiński,2017,5.0
-211000,Powiat lubiński,2018,4.8
-211000,Powiat lubiński,2019,4.1
-211000,Powiat lubiński,2020,5.0
-211000,Powiat lubiński,2021,4.0
-211000,Powiat lubiński,2022,3.9
-211000,Powiat lubiński,2023,3.8
-211000,Powiat lubiński,2024,4.0
-212000,Powiat lwówecki,2013,26.2
-212000,Powiat lwówecki,2014,22.4
-212000,Powiat lwówecki,2015,19.4
-212000,Powiat lwówecki,2016,16.9
-212000,Powiat lwówecki,2017,13.0
-212000,Powiat lwówecki,2018,12.2
-212000,Powiat lwówecki,2019,11.2
-212000,Powiat lwówecki,2020,11.5
-212000,Powiat lwówecki,2021,9.5
-212000,Powiat lwówecki,2022,8.7
-212000,Powiat lwówecki,2023,8.7
-212000,Powiat lwówecki,2024,8.7
-213000,Powiat milicki,2013,18.1
-213000,Powiat milicki,2014,14.5
-213000,Powiat milicki,2015,12.0
-213000,Powiat milicki,2016,9.8
-213000,Powiat milicki,2017,7.8
-213000,Powiat milicki,2018,6.8
-213000,Powiat milicki,2019,6.4
-213000,Powiat milicki,2020,6.9
-213000,Powiat milicki,2021,5.8
-213000,Powiat milicki,2022,6.3
-213000,Powiat milicki,2023,6.4
-213000,Powiat milicki,2024,6.1
-214000,Powiat oleśnicki,2013,16.0
-214000,Powiat oleśnicki,2014,12.0
-214000,Powiat oleśnicki,2015,9.8
-214000,Powiat oleśnicki,2016,8.0
-214000,Powiat oleśnicki,2017,6.1
-214000,Powiat oleśnicki,2018,5.4
-214000,Powiat oleśnicki,2019,5.2
-214000,Powiat oleśnicki,2020,6.7
-214000,Powiat oleśnicki,2021,6.0
-214000,Powiat oleśnicki,2022,6.0
-214000,Powiat oleśnicki,2023,5.8
-214000,Powiat oleśnicki,2024,5.9
-215000,Powiat oławski,2013,12.7
-215000,Powiat oławski,2014,8.7
-215000,Powiat oławski,2015,7.8
-215000,Powiat oławski,2016,7.0
-215000,Powiat oławski,2017,5.6
-215000,Powiat oławski,2018,5.4
-215000,Powiat oławski,2019,4.4
-215000,Powiat oławski,2020,4.9
-215000,Powiat oławski,2021,4.0
-215000,Powiat oławski,2022,4.2
-215000,Powiat oławski,2023,3.9
-215000,Powiat oławski,2024,4.3
-216000,Powiat polkowicki,2013,8.8
-216000,Powiat polkowicki,2014,7.8
-216000,Powiat polkowicki,2015,6.3
-216000,Powiat polkowicki,2016,5.8
-216000,Powiat polkowicki,2017,4.7
-216000,Powiat polkowicki,2018,4.5
-216000,Powiat polkowicki,2019,4.4
-216000,Powiat polkowicki,2020,4.8
-216000,Powiat polkowicki,2021,4.9
-216000,Powiat polkowicki,2022,4.4
-216000,Powiat polkowicki,2023,4.3
-216000,Powiat polkowicki,2024,4.2
-217000,Powiat strzeliński,2013,18.0
-217000,Powiat strzeliński,2014,15.1
-217000,Powiat strzeliński,2015,13.3
-217000,Powiat strzeliński,2016,12.3
-217000,Powiat strzeliński,2017,11.0
-217000,Powiat strzeliński,2018,10.5
-217000,Powiat strzeliński,2019,9.7
-217000,Powiat strzeliński,2020,11.2
-217000,Powiat strzeliński,2021,11.8
-217000,Powiat strzeliński,2022,10.4
-217000,Powiat strzeliński,2023,10.4
-217000,Powiat strzeliński,2024,10.5
-218000,Powiat średzki,2013,13.1
-218000,Powiat średzki,2014,10.5
-218000,Powiat średzki,2015,8.2
-218000,Powiat średzki,2016,7.3
-218000,Powiat średzki,2017,6.0
-218000,Powiat średzki,2018,5.5
-218000,Powiat średzki,2019,4.8
-218000,Powiat średzki,2020,5.8
-218000,Powiat średzki,2021,5.8
-218000,Powiat średzki,2022,4.7
-218000,Powiat średzki,2023,4.6
-218000,Powiat średzki,2024,5.2
-219000,Powiat świdnicki,2013,13.8
-219000,Powiat świdnicki,2014,11.2
-219000,Powiat świdnicki,2015,9.9
-219000,Powiat świdnicki,2016,8.6
-219000,Powiat świdnicki,2017,6.9
-219000,Powiat świdnicki,2018,6.2
-219000,Powiat świdnicki,2019,5.6
-219000,Powiat świdnicki,2020,6.9
-219000,Powiat świdnicki,2021,5.7
-219000,Powiat świdnicki,2022,5.6
-219000,Powiat świdnicki,2023,5.9
-219000,Powiat świdnicki,2024,6.3
-220000,Powiat trzebnicki,2013,14.4
-220000,Powiat trzebnicki,2014,10.9
-220000,Powiat trzebnicki,2015,9.0
-220000,Powiat trzebnicki,2016,7.9
-220000,Powiat trzebnicki,2017,6.7
-220000,Powiat trzebnicki,2018,5.8
-220000,Powiat trzebnicki,2019,5.1
-220000,Powiat trzebnicki,2020,5.5
-220000,Powiat trzebnicki,2021,5.1
-220000,Powiat trzebnicki,2022,4.8
-220000,Powiat trzebnicki,2023,5.0
-220000,Powiat trzebnicki,2024,5.2
-221000,Powiat wałbrzyski,2013,29.8
-221000,Powiat wałbrzyski,2014,24.9
-221000,Powiat wałbrzyski,2015,22.4
-221000,Powiat wałbrzyski,2016,19.3
-221000,Powiat wałbrzyski,2017,14.3
-221000,Powiat wałbrzyski,2018,13.6
-221000,Powiat wałbrzyski,2019,12.8
-221000,Powiat wałbrzyski,2020,14.9
-221000,Powiat wałbrzyski,2021,13.9
-221000,Powiat wałbrzyski,2022,11.7
-221000,Powiat wałbrzyski,2023,11.7
-221000,Powiat wałbrzyski,2024,11.7
-222000,Powiat wołowski,2013,21.8
-222000,Powiat wołowski,2014,18.3
-222000,Powiat wołowski,2015,15.0
-222000,Powiat wołowski,2016,14.4
-222000,Powiat wołowski,2017,12.1
-222000,Powiat wołowski,2018,11.3
-222000,Powiat wołowski,2019,10.6
-222000,Powiat wołowski,2020,11.7
-222000,Powiat wołowski,2021,12.2
-222000,Powiat wołowski,2022,11.2
-222000,Powiat wołowski,2023,11.2
-222000,Powiat wołowski,2024,10.5
-223000,Powiat wrocławski,2013,5.3
-223000,Powiat wrocławski,2014,3.9
-223000,Powiat wrocławski,2015,3.4
-223000,Powiat wrocławski,2016,2.7
-223000,Powiat wrocławski,2017,2.0
-223000,Powiat wrocławski,2018,1.8
-223000,Powiat wrocławski,2019,1.6
-223000,Powiat wrocławski,2020,2.0
-223000,Powiat wrocławski,2021,1.8
-223000,Powiat wrocławski,2022,1.4
-223000,Powiat wrocławski,2023,1.4
-223000,Powiat wrocławski,2024,1.5
-224000,Powiat ząbkowicki,2013,22.4
-224000,Powiat ząbkowicki,2014,19.0
-224000,Powiat ząbkowicki,2015,14.9
-224000,Powiat ząbkowicki,2016,13.8
-224000,Powiat ząbkowicki,2017,11.8
-224000,Powiat ząbkowicki,2018,10.9
-224000,Powiat ząbkowicki,2019,9.4
-224000,Powiat ząbkowicki,2020,10.2
-224000,Powiat ząbkowicki,2021,9.7
-224000,Powiat ząbkowicki,2022,9.5
-224000,Powiat ząbkowicki,2023,10.1
-224000,Powiat ząbkowicki,2024,10.4
-225000,Powiat zgorzelecki,2013,14.7
-225000,Powiat zgorzelecki,2014,12.1
-225000,Powiat zgorzelecki,2015,9.0
-225000,Powiat zgorzelecki,2016,7.7
-225000,Powiat zgorzelecki,2017,5.4
-225000,Powiat zgorzelecki,2018,5.1
-225000,Powiat zgorzelecki,2019,4.9
-225000,Powiat zgorzelecki,2020,6.0
-225000,Powiat zgorzelecki,2021,5.6
-225000,Powiat zgorzelecki,2022,5.1
-225000,Powiat zgorzelecki,2023,5.0
-225000,Powiat zgorzelecki,2024,5.4
-226000,Powiat złotoryjski,2013,28.6
-226000,Powiat złotoryjski,2014,24.5
-226000,Powiat złotoryjski,2015,21.2
-226000,Powiat złotoryjski,2016,18.9
-226000,Powiat złotoryjski,2017,16.0
-226000,Powiat złotoryjski,2018,14.8
-226000,Powiat złotoryjski,2019,13.1
-226000,Powiat złotoryjski,2020,14.2
-226000,Powiat złotoryjski,2021,13.8
-226000,Powiat złotoryjski,2022,13.7
-226000,Powiat złotoryjski,2023,13.3
-226000,Powiat złotoryjski,2024,13.9
-261000,Powiat m. Jelenia Góra,2013,9.3
-261000,Powiat m. Jelenia Góra,2014,7.5
-261000,Powiat m. Jelenia Góra,2015,5.7
-261000,Powiat m. Jelenia Góra,2016,4.6
-261000,Powiat m. Jelenia Góra,2017,3.6
-261000,Powiat m. Jelenia Góra,2018,3.6
-261000,Powiat m. Jelenia Góra,2019,3.2
-261000,Powiat m. Jelenia Góra,2020,4.6
-261000,Powiat m. Jelenia Góra,2021,3.8
-261000,Powiat m. Jelenia Góra,2022,3.6
-261000,Powiat m. Jelenia Góra,2023,3.9
-261000,Powiat m. Jelenia Góra,2024,4.1
-262000,Powiat m. Legnica,2013,10.3
-262000,Powiat m. Legnica,2014,8.5
-262000,Powiat m. Legnica,2015,7.1
-262000,Powiat m. Legnica,2016,6.7
-262000,Powiat m. Legnica,2017,5.5
-262000,Powiat m. Legnica,2018,5.0
-262000,Powiat m. Legnica,2019,4.2
-262000,Powiat m. Legnica,2020,5.7
-262000,Powiat m. Legnica,2021,5.2
-262000,Powiat m. Legnica,2022,5.1
-262000,Powiat m. Legnica,2023,4.5
-262000,Powiat m. Legnica,2024,4.7
-264000,Powiat m. Wrocław,2013,5.5
-264000,Powiat m. Wrocław,2014,4.1
-264000,Powiat m. Wrocław,2015,3.3
-264000,Powiat m. Wrocław,2016,2.7
-264000,Powiat m. Wrocław,2017,2.1
-264000,Powiat m. Wrocław,2018,1.9
-264000,Powiat m. Wrocław,2019,1.6
-264000,Powiat m. Wrocław,2020,2.4
-264000,Powiat m. Wrocław,2021,1.9
-264000,Powiat m. Wrocław,2022,1.6
-264000,Powiat m. Wrocław,2023,1.6
-264000,Powiat m. Wrocław,2024,1.7
-265000,Powiat m. Wałbrzych od 2013,2013,16.8
-265000,Powiat m. Wałbrzych od 2013,2014,13.1
-265000,Powiat m. Wałbrzych od 2013,2015,10.4
-265000,Powiat m. Wałbrzych od 2013,2016,9.2
-265000,Powiat m. Wałbrzych od 2013,2017,7.2
-265000,Powiat m. Wałbrzych od 2013,2018,6.0
-265000,Powiat m. Wałbrzych od 2013,2019,4.9
-265000,Powiat m. Wałbrzych od 2013,2020,6.0
-265000,Powiat m. Wałbrzych od 2013,2021,4.8
-265000,Powiat m. Wałbrzych od 2013,2022,4.2
-265000,Powiat m. Wałbrzych od 2013,2023,4.4
-265000,Powiat m. Wałbrzych od 2013,2024,5.1
-400000,KUJAWSKO-POMORSKIE,2013,18.2
-400000,KUJAWSKO-POMORSKIE,2014,15.5
-400000,KUJAWSKO-POMORSKIE,2015,13.2
-400000,KUJAWSKO-POMORSKIE,2016,12.0
-400000,KUJAWSKO-POMORSKIE,2017,9.9
-400000,KUJAWSKO-POMORSKIE,2018,8.8
-400000,KUJAWSKO-POMORSKIE,2019,7.9
-400000,KUJAWSKO-POMORSKIE,2020,9.0
-400000,KUJAWSKO-POMORSKIE,2021,8.1
-400000,KUJAWSKO-POMORSKIE,2022,7.3
-400000,KUJAWSKO-POMORSKIE,2023,7.1
-400000,KUJAWSKO-POMORSKIE,2024,7.3
-401000,Powiat aleksandrowski,2013,24.2
-401000,Powiat aleksandrowski,2014,22.3
-401000,Powiat aleksandrowski,2015,18.9
-401000,Powiat aleksandrowski,2016,16.9
-401000,Powiat aleksandrowski,2017,14.2
-401000,Powiat aleksandrowski,2018,12.9
-401000,Powiat aleksandrowski,2019,12.2
-401000,Powiat aleksandrowski,2020,14.8
-401000,Powiat aleksandrowski,2021,13.5
-401000,Powiat aleksandrowski,2022,11.3
-401000,Powiat aleksandrowski,2023,10.9
-401000,Powiat aleksandrowski,2024,10.3
-402000,Powiat brodnicki,2013,15.7
-402000,Powiat brodnicki,2014,13.2
-402000,Powiat brodnicki,2015,11.4
-402000,Powiat brodnicki,2016,9.8
-402000,Powiat brodnicki,2017,7.7
-402000,Powiat brodnicki,2018,7.2
-402000,Powiat brodnicki,2019,7.0
-402000,Powiat brodnicki,2020,8.4
-402000,Powiat brodnicki,2021,6.7
-402000,Powiat brodnicki,2022,6.9
-402000,Powiat brodnicki,2023,6.7
-402000,Powiat brodnicki,2024,6.7
-403000,Powiat bydgoski,2013,13.8
-403000,Powiat bydgoski,2014,11.8
-403000,Powiat bydgoski,2015,8.9
-403000,Powiat bydgoski,2016,7.8
-403000,Powiat bydgoski,2017,6.4
-403000,Powiat bydgoski,2018,5.5
-403000,Powiat bydgoski,2019,4.1
-403000,Powiat bydgoski,2020,5.2
-403000,Powiat bydgoski,2021,3.9
-403000,Powiat bydgoski,2022,3.3
-403000,Powiat bydgoski,2023,3.1
-403000,Powiat bydgoski,2024,3.3
-404000,Powiat chełmiński,2013,24.7
-404000,Powiat chełmiński,2014,20.9
-404000,Powiat chełmiński,2015,17.5
-404000,Powiat chełmiński,2016,15.7
-404000,Powiat chełmiński,2017,13.8
-404000,Powiat chełmiński,2018,12.6
-404000,Powiat chełmiński,2019,11.8
-404000,Powiat chełmiński,2020,13.2
-404000,Powiat chełmiński,2021,12.8
-404000,Powiat chełmiński,2022,12.3
-404000,Powiat chełmiński,2023,11.8
-404000,Powiat chełmiński,2024,12.5
-405000,Powiat golubsko-dobrzyński,2013,23.6
-405000,Powiat golubsko-dobrzyński,2014,20.1
-405000,Powiat golubsko-dobrzyński,2015,16.7
-405000,Powiat golubsko-dobrzyński,2016,13.5
-405000,Powiat golubsko-dobrzyński,2017,11.0
-405000,Powiat golubsko-dobrzyński,2018,10.2
-405000,Powiat golubsko-dobrzyński,2019,10.0
-405000,Powiat golubsko-dobrzyński,2020,11.9
-405000,Powiat golubsko-dobrzyński,2021,12.1
-405000,Powiat golubsko-dobrzyński,2022,10.6
-405000,Powiat golubsko-dobrzyński,2023,10.2
-405000,Powiat golubsko-dobrzyński,2024,10.6
-406000,Powiat grudziądzki,2013,26.0
-406000,Powiat grudziądzki,2014,20.4
-406000,Powiat grudziądzki,2015,16.5
-406000,Powiat grudziądzki,2016,16.5
-406000,Powiat grudziądzki,2017,14.2
-406000,Powiat grudziądzki,2018,13.4
-406000,Powiat grudziądzki,2019,10.6
-406000,Powiat grudziądzki,2020,12.3
-406000,Powiat grudziądzki,2021,13.4
-406000,Powiat grudziądzki,2022,11.3
-406000,Powiat grudziądzki,2023,10.5
-406000,Powiat grudziądzki,2024,11.0
-407000,Powiat inowrocławski,2013,23.8
-407000,Powiat inowrocławski,2014,20.0
-407000,Powiat inowrocławski,2015,18.2
-407000,Powiat inowrocławski,2016,16.9
-407000,Powiat inowrocławski,2017,14.4
-407000,Powiat inowrocławski,2018,12.6
-407000,Powiat inowrocławski,2019,11.0
-407000,Powiat inowrocławski,2020,12.7
-407000,Powiat inowrocławski,2021,12.4
-407000,Powiat inowrocławski,2022,10.3
-407000,Powiat inowrocławski,2023,10.6
-407000,Powiat inowrocławski,2024,10.7
-408000,Powiat lipnowski,2013,28.7
-408000,Powiat lipnowski,2014,25.5
-408000,Powiat lipnowski,2015,20.3
-408000,Powiat lipnowski,2016,21.7
-408000,Powiat lipnowski,2017,17.8
-408000,Powiat lipnowski,2018,17.0
-408000,Powiat lipnowski,2019,15.5
-408000,Powiat lipnowski,2020,15.9
-408000,Powiat lipnowski,2021,15.6
-408000,Powiat lipnowski,2022,12.7
-408000,Powiat lipnowski,2023,13.0
-408000,Powiat lipnowski,2024,13.3
-409000,Powiat mogileński,2013,22.6
-409000,Powiat mogileński,2014,18.8
-409000,Powiat mogileński,2015,15.8
-409000,Powiat mogileński,2016,13.9
-409000,Powiat mogileński,2017,11.5
-409000,Powiat mogileński,2018,10.7
-409000,Powiat mogileński,2019,9.8
-409000,Powiat mogileński,2020,10.7
-409000,Powiat mogileński,2021,10.6
-409000,Powiat mogileński,2022,9.6
-409000,Powiat mogileński,2023,9.7
-409000,Powiat mogileński,2024,9.6
-410000,Powiat nakielski,2013,23.6
-410000,Powiat nakielski,2014,20.7
-410000,Powiat nakielski,2015,17.5
-410000,Powiat nakielski,2016,15.7
-410000,Powiat nakielski,2017,13.1
-410000,Powiat nakielski,2018,11.7
-410000,Powiat nakielski,2019,10.5
-410000,Powiat nakielski,2020,12.8
-410000,Powiat nakielski,2021,11.6
-410000,Powiat nakielski,2022,10.4
-410000,Powiat nakielski,2023,9.8
-410000,Powiat nakielski,2024,10.2
-411000,Powiat radziejowski,2013,26.1
-411000,Powiat radziejowski,2014,22.9
-411000,Powiat radziejowski,2015,21.7
-411000,Powiat radziejowski,2016,20.5
-411000,Powiat radziejowski,2017,18.4
-411000,Powiat radziejowski,2018,16.6
-411000,Powiat radziejowski,2019,16.6
-411000,Powiat radziejowski,2020,16.2
-411000,Powiat radziejowski,2021,18.7
-411000,Powiat radziejowski,2022,15.3
-411000,Powiat radziejowski,2023,16.0
-411000,Powiat radziejowski,2024,15.1
-412000,Powiat rypiński,2013,21.2
-412000,Powiat rypiński,2014,18.5
-412000,Powiat rypiński,2015,15.7
-412000,Powiat rypiński,2016,13.8
-412000,Powiat rypiński,2017,11.8
-412000,Powiat rypiński,2018,11.6
-412000,Powiat rypiński,2019,9.9
-412000,Powiat rypiński,2020,10.5
-412000,Powiat rypiński,2021,10.5
-412000,Powiat rypiński,2022,8.9
-412000,Powiat rypiński,2023,9.0
-412000,Powiat rypiński,2024,10.0
-413000,Powiat sępoleński,2013,25.0
-413000,Powiat sępoleński,2014,21.5
-413000,Powiat sępoleński,2015,19.3
-413000,Powiat sępoleński,2016,17.1
-413000,Powiat sępoleński,2017,14.2
-413000,Powiat sępoleński,2018,12.5
-413000,Powiat sępoleński,2019,11.6
-413000,Powiat sępoleński,2020,12.3
-413000,Powiat sępoleński,2021,11.5
-413000,Powiat sępoleński,2022,10.7
-413000,Powiat sępoleński,2023,11.5
-413000,Powiat sępoleński,2024,10.9
-414000,Powiat świecki,2013,18.2
-414000,Powiat świecki,2014,15.2
-414000,Powiat świecki,2015,12.3
-414000,Powiat świecki,2016,10.3
-414000,Powiat świecki,2017,8.5
-414000,Powiat świecki,2018,7.5
-414000,Powiat świecki,2019,7.0
-414000,Powiat świecki,2020,7.2
-414000,Powiat świecki,2021,6.5
-414000,Powiat świecki,2022,6.2
-414000,Powiat świecki,2023,6.3
-414000,Powiat świecki,2024,6.4
-415000,Powiat toruński,2013,21.3
-415000,Powiat toruński,2014,17.9
-415000,Powiat toruński,2015,15.9
-415000,Powiat toruński,2016,13.7
-415000,Powiat toruński,2017,12.3
-415000,Powiat toruński,2018,11.0
-415000,Powiat toruński,2019,9.4
-415000,Powiat toruński,2020,10.5
-415000,Powiat toruński,2021,10.6
-415000,Powiat toruński,2022,8.4
-415000,Powiat toruński,2023,8.0
-415000,Powiat toruński,2024,8.3
-416000,Powiat tucholski,2013,21.9
-416000,Powiat tucholski,2014,18.7
-416000,Powiat tucholski,2015,16.8
-416000,Powiat tucholski,2016,14.9
-416000,Powiat tucholski,2017,12.5
-416000,Powiat tucholski,2018,11.0
-416000,Powiat tucholski,2019,9.7
-416000,Powiat tucholski,2020,11.0
-416000,Powiat tucholski,2021,10.6
-416000,Powiat tucholski,2022,10.3
-416000,Powiat tucholski,2023,10.8
-416000,Powiat tucholski,2024,10.7
-417000,Powiat wąbrzeski,2013,22.8
-417000,Powiat wąbrzeski,2014,20.1
-417000,Powiat wąbrzeski,2015,17.9
-417000,Powiat wąbrzeski,2016,16.7
-417000,Powiat wąbrzeski,2017,13.6
-417000,Powiat wąbrzeski,2018,12.0
-417000,Powiat wąbrzeski,2019,11.5
-417000,Powiat wąbrzeski,2020,13.0
-417000,Powiat wąbrzeski,2021,11.7
-417000,Powiat wąbrzeski,2022,12.7
-417000,Powiat wąbrzeski,2023,12.3
-417000,Powiat wąbrzeski,2024,11.0
-418000,Powiat włocławski,2013,27.3
-418000,Powiat włocławski,2014,25.4
-418000,Powiat włocławski,2015,23.3
-418000,Powiat włocławski,2016,22.0
-418000,Powiat włocławski,2017,18.5
-418000,Powiat włocławski,2018,15.6
-418000,Powiat włocławski,2019,13.9
-418000,Powiat włocławski,2020,14.6
-418000,Powiat włocławski,2021,16.0
-418000,Powiat włocławski,2022,13.4
-418000,Powiat włocławski,2023,12.8
-418000,Powiat włocławski,2024,13.2
-419000,Powiat żniński,2013,23.0
-419000,Powiat żniński,2014,19.3
-419000,Powiat żniński,2015,17.0
-419000,Powiat żniński,2016,15.5
-419000,Powiat żniński,2017,12.2
-419000,Powiat żniński,2018,10.6
-419000,Powiat żniński,2019,9.4
-419000,Powiat żniński,2020,10.2
-419000,Powiat żniński,2021,9.7
-419000,Powiat żniński,2022,8.9
-419000,Powiat żniński,2023,9.1
-419000,Powiat żniński,2024,9.2
-461000,Powiat m. Bydgoszcz,2013,8.8
-461000,Powiat m. Bydgoszcz,2014,7.4
-461000,Powiat m. Bydgoszcz,2015,5.4
-461000,Powiat m. Bydgoszcz,2016,4.8
-461000,Powiat m. Bydgoszcz,2017,3.9
-461000,Powiat m. Bydgoszcz,2018,3.6
-461000,Powiat m. Bydgoszcz,2019,2.9
-461000,Powiat m. Bydgoszcz,2020,3.6
-461000,Powiat m. Bydgoszcz,2021,2.5
-461000,Powiat m. Bydgoszcz,2022,2.3
-461000,Powiat m. Bydgoszcz,2023,2.2
-461000,Powiat m. Bydgoszcz,2024,2.3
-462000,Powiat m. Grudziądz,2013,20.9
-462000,Powiat m. Grudziądz,2014,16.4
-462000,Powiat m. Grudziądz,2015,14.2
-462000,Powiat m. Grudziądz,2016,13.0
-462000,Powiat m. Grudziądz,2017,10.6
-462000,Powiat m. Grudziądz,2018,9.2
-462000,Powiat m. Grudziądz,2019,8.4
-462000,Powiat m. Grudziądz,2020,11.7
-462000,Powiat m. Grudziądz,2021,11.5
-462000,Powiat m. Grudziądz,2022,10.0
-462000,Powiat m. Grudziądz,2023,9.2
-462000,Powiat m. Grudziądz,2024,9.8
-463000,Powiat m. Toruń,2013,10.4
-463000,Powiat m. Toruń,2014,8.1
-463000,Powiat m. Toruń,2015,6.9
-463000,Powiat m. Toruń,2016,6.1
-463000,Powiat m. Toruń,2017,5.2
-463000,Powiat m. Toruń,2018,4.7
-463000,Powiat m. Toruń,2019,4.1
-463000,Powiat m. Toruń,2020,4.7
-463000,Powiat m. Toruń,2021,4.0
-463000,Powiat m. Toruń,2022,3.6
-463000,Powiat m. Toruń,2023,3.1
-463000,Powiat m. Toruń,2024,3.2
-464000,Powiat m. Włocławek,2013,20.3
-464000,Powiat m. Włocławek,2014,18.9
-464000,Powiat m. Włocławek,2015,16.9
-464000,Powiat m. Włocławek,2016,16.4
-464000,Powiat m. Włocławek,2017,12.8
-464000,Powiat m. Włocławek,2018,10.7
-464000,Powiat m. Włocławek,2019,9.3
-464000,Powiat m. Włocławek,2020,10.9
-464000,Powiat m. Włocławek,2021,8.7
-464000,Powiat m. Włocławek,2022,8.4
-464000,Powiat m. Włocławek,2023,8.2
-464000,Powiat m. Włocławek,2024,8.7
-600000,LUBELSKIE,2013,14.4
-600000,LUBELSKIE,2014,12.6
-600000,LUBELSKIE,2015,11.7
-600000,LUBELSKIE,2016,10.3
-600000,LUBELSKIE,2017,8.8
-600000,LUBELSKIE,2018,8.0
-600000,LUBELSKIE,2019,7.5
-600000,LUBELSKIE,2020,8.2
-600000,LUBELSKIE,2021,8.7
-600000,LUBELSKIE,2022,8.0
-600000,LUBELSKIE,2023,7.6
-600000,LUBELSKIE,2024,7.4
-601000,Powiat bialski,2013,15.8
-601000,Powiat bialski,2014,14.6
-601000,Powiat bialski,2015,12.9
-601000,Powiat bialski,2016,12.2
-601000,Powiat bialski,2017,10.2
-601000,Powiat bialski,2018,9.9
-601000,Powiat bialski,2019,9.3
-601000,Powiat bialski,2020,10.3
-601000,Powiat bialski,2021,11.1
-601000,Powiat bialski,2022,9.6
-601000,Powiat bialski,2023,8.7
-601000,Powiat bialski,2024,9.1
-602000,Powiat biłgorajski,2013,9.4
-602000,Powiat biłgorajski,2014,8.3
-602000,Powiat biłgorajski,2015,8.0
-602000,Powiat biłgorajski,2016,6.5
-602000,Powiat biłgorajski,2017,5.7
-602000,Powiat biłgorajski,2018,5.0
-602000,Powiat biłgorajski,2019,5.0
-602000,Powiat biłgorajski,2020,5.3
-602000,Powiat biłgorajski,2021,6.5
-602000,Powiat biłgorajski,2022,5.9
-602000,Powiat biłgorajski,2023,6.1
-602000,Powiat biłgorajski,2024,5.9
-603000,Powiat chełmski,2013,20.3
-603000,Powiat chełmski,2014,18.0
-603000,Powiat chełmski,2015,16.9
-603000,Powiat chełmski,2016,15.7
-603000,Powiat chełmski,2017,14.0
-603000,Powiat chełmski,2018,13.3
-603000,Powiat chełmski,2019,11.9
-603000,Powiat chełmski,2020,12.9
-603000,Powiat chełmski,2021,17.5
-603000,Powiat chełmski,2022,13.8
-603000,Powiat chełmski,2023,12.3
-603000,Powiat chełmski,2024,12.4
-604000,Powiat hrubieszowski,2013,20.3
-604000,Powiat hrubieszowski,2014,18.3
-604000,Powiat hrubieszowski,2015,17.7
-604000,Powiat hrubieszowski,2016,16.1
-604000,Powiat hrubieszowski,2017,14.3
-604000,Powiat hrubieszowski,2018,13.1
-604000,Powiat hrubieszowski,2019,13.3
-604000,Powiat hrubieszowski,2020,12.9
-604000,Powiat hrubieszowski,2021,18.1
-604000,Powiat hrubieszowski,2022,15.1
-604000,Powiat hrubieszowski,2023,15.3
-604000,Powiat hrubieszowski,2024,15.3
-605000,Powiat janowski,2013,15.3
-605000,Powiat janowski,2014,13.1
-605000,Powiat janowski,2015,12.2
-605000,Powiat janowski,2016,11.2
-605000,Powiat janowski,2017,8.4
-605000,Powiat janowski,2018,8.5
-605000,Powiat janowski,2019,8.5
-605000,Powiat janowski,2020,9.2
-605000,Powiat janowski,2021,13.8
-605000,Powiat janowski,2022,12.3
-605000,Powiat janowski,2023,11.8
-605000,Powiat janowski,2024,11.3
-606000,Powiat krasnostawski,2013,17.0
-606000,Powiat krasnostawski,2014,15.5
-606000,Powiat krasnostawski,2015,15.1
-606000,Powiat krasnostawski,2016,13.7
-606000,Powiat krasnostawski,2017,12.7
-606000,Powiat krasnostawski,2018,11.5
-606000,Powiat krasnostawski,2019,11.0
-606000,Powiat krasnostawski,2020,11.7
-606000,Powiat krasnostawski,2021,15.8
-606000,Powiat krasnostawski,2022,14.3
-606000,Powiat krasnostawski,2023,14.0
-606000,Powiat krasnostawski,2024,13.4
-607000,Powiat kraśnicki,2013,16.0
-607000,Powiat kraśnicki,2014,14.0
-607000,Powiat kraśnicki,2015,13.0
-607000,Powiat kraśnicki,2016,13.3
-607000,Powiat kraśnicki,2017,11.1
-607000,Powiat kraśnicki,2018,10.2
-607000,Powiat kraśnicki,2019,10.2
-607000,Powiat kraśnicki,2020,10.9
-607000,Powiat kraśnicki,2021,11.5
-607000,Powiat kraśnicki,2022,11.2
-607000,Powiat kraśnicki,2023,11.2
-607000,Powiat kraśnicki,2024,10.4
-608000,Powiat lubartowski,2013,17.5
-608000,Powiat lubartowski,2014,16.0
-608000,Powiat lubartowski,2015,14.1
-608000,Powiat lubartowski,2016,13.0
-608000,Powiat lubartowski,2017,11.9
-608000,Powiat lubartowski,2018,10.7
-608000,Powiat lubartowski,2019,10.3
-608000,Powiat lubartowski,2020,11.3
-608000,Powiat lubartowski,2021,13.8
-608000,Powiat lubartowski,2022,12.0
-608000,Powiat lubartowski,2023,11.9
-608000,Powiat lubartowski,2024,11.5
-609000,Powiat lubelski,2013,12.9
-609000,Powiat lubelski,2014,11.0
-609000,Powiat lubelski,2015,10.0
-609000,Powiat lubelski,2016,8.5
-609000,Powiat lubelski,2017,7.3
-609000,Powiat lubelski,2018,6.3
-609000,Powiat lubelski,2019,5.6
-609000,Powiat lubelski,2020,5.8
-609000,Powiat lubelski,2021,5.9
-609000,Powiat lubelski,2022,5.6
-609000,Powiat lubelski,2023,5.7
-609000,Powiat lubelski,2024,5.5
-610000,Powiat łęczyński,2013,10.3
-610000,Powiat łęczyński,2014,8.5
-610000,Powiat łęczyński,2015,8.3
-610000,Powiat łęczyński,2016,6.9
-610000,Powiat łęczyński,2017,5.8
-610000,Powiat łęczyński,2018,5.4
-610000,Powiat łęczyński,2019,5.2
-610000,Powiat łęczyński,2020,5.7
-610000,Powiat łęczyński,2021,6.3
-610000,Powiat łęczyński,2022,5.7
-610000,Powiat łęczyński,2023,5.4
-610000,Powiat łęczyński,2024,5.3
-611000,Powiat łukowski,2013,12.9
-611000,Powiat łukowski,2014,10.7
-611000,Powiat łukowski,2015,8.9
-611000,Powiat łukowski,2016,6.5
-611000,Powiat łukowski,2017,5.0
-611000,Powiat łukowski,2018,4.4
-611000,Powiat łukowski,2019,4.2
-611000,Powiat łukowski,2020,4.6
-611000,Powiat łukowski,2021,4.3
-611000,Powiat łukowski,2022,4.2
-611000,Powiat łukowski,2023,3.9
-611000,Powiat łukowski,2024,4.0
-612000,Powiat opolski,2013,16.0
-612000,Powiat opolski,2014,14.0
-612000,Powiat opolski,2015,13.0
-612000,Powiat opolski,2016,11.7
-612000,Powiat opolski,2017,9.1
-612000,Powiat opolski,2018,9.2
-612000,Powiat opolski,2019,8.2
-612000,Powiat opolski,2020,9.3
-612000,Powiat opolski,2021,9.1
-612000,Powiat opolski,2022,9.4
-612000,Powiat opolski,2023,9.3
-612000,Powiat opolski,2024,9.5
-613000,Powiat parczewski,2013,15.3
-613000,Powiat parczewski,2014,13.1
-613000,Powiat parczewski,2015,12.2
-613000,Powiat parczewski,2016,10.0
-613000,Powiat parczewski,2017,8.2
-613000,Powiat parczewski,2018,7.2
-613000,Powiat parczewski,2019,6.6
-613000,Powiat parczewski,2020,7.2
-613000,Powiat parczewski,2021,8.5
-613000,Powiat parczewski,2022,8.2
-613000,Powiat parczewski,2023,8.0
-613000,Powiat parczewski,2024,8.1
-614000,Powiat puławski,2013,11.7
-614000,Powiat puławski,2014,10.1
-614000,Powiat puławski,2015,8.9
-614000,Powiat puławski,2016,7.6
-614000,Powiat puławski,2017,5.9
-614000,Powiat puławski,2018,6.3
-614000,Powiat puławski,2019,5.1
-614000,Powiat puławski,2020,6.6
-614000,Powiat puławski,2021,6.6
-614000,Powiat puławski,2022,5.7
-614000,Powiat puławski,2023,5.9
-614000,Powiat puławski,2024,5.7
-615000,Powiat radzyński,2013,15.3
-615000,Powiat radzyński,2014,13.8
-615000,Powiat radzyński,2015,12.8
-615000,Powiat radzyński,2016,10.5
-615000,Powiat radzyński,2017,8.1
-615000,Powiat radzyński,2018,7.0
-615000,Powiat radzyński,2019,5.8
-615000,Powiat radzyński,2020,6.8
-615000,Powiat radzyński,2021,8.2
-615000,Powiat radzyński,2022,7.9
-615000,Powiat radzyński,2023,7.6
-615000,Powiat radzyński,2024,7.0
-616000,Powiat rycki,2013,15.5
-616000,Powiat rycki,2014,14.1
-616000,Powiat rycki,2015,12.5
-616000,Powiat rycki,2016,11.3
-616000,Powiat rycki,2017,9.4
-616000,Powiat rycki,2018,7.9
-616000,Powiat rycki,2019,7.0
-616000,Powiat rycki,2020,7.6
-616000,Powiat rycki,2021,7.9
-616000,Powiat rycki,2022,7.2
-616000,Powiat rycki,2023,6.8
-616000,Powiat rycki,2024,6.7
-617000,Powiat świdnicki,2013,16.1
-617000,Powiat świdnicki,2014,14.6
-617000,Powiat świdnicki,2015,14.3
-617000,Powiat świdnicki,2016,12.5
-617000,Powiat świdnicki,2017,10.2
-617000,Powiat świdnicki,2018,9.2
-617000,Powiat świdnicki,2019,8.3
-617000,Powiat świdnicki,2020,9.3
-617000,Powiat świdnicki,2021,9.7
-617000,Powiat świdnicki,2022,8.0
-617000,Powiat świdnicki,2023,7.1
-617000,Powiat świdnicki,2024,7.2
-618000,Powiat tomaszowski,2013,15.8
-618000,Powiat tomaszowski,2014,13.1
-618000,Powiat tomaszowski,2015,12.5
-618000,Powiat tomaszowski,2016,9.9
-618000,Powiat tomaszowski,2017,8.1
-618000,Powiat tomaszowski,2018,6.8
-618000,Powiat tomaszowski,2019,6.9
-618000,Powiat tomaszowski,2020,8.0
-618000,Powiat tomaszowski,2021,9.9
-618000,Powiat tomaszowski,2022,9.1
-618000,Powiat tomaszowski,2023,9.6
-618000,Powiat tomaszowski,2024,8.8
-619000,Powiat włodawski,2013,25.0
-619000,Powiat włodawski,2014,23.1
-619000,Powiat włodawski,2015,20.8
-619000,Powiat włodawski,2016,19.2
-619000,Powiat włodawski,2017,16.5
-619000,Powiat włodawski,2018,15.3
-619000,Powiat włodawski,2019,15.7
-619000,Powiat włodawski,2020,16.0
-619000,Powiat włodawski,2021,17.6
-619000,Powiat włodawski,2022,15.6
-619000,Powiat włodawski,2023,15.6
-619000,Powiat włodawski,2024,15.1
-620000,Powiat zamojski,2013,16.2
-620000,Powiat zamojski,2014,14.5
-620000,Powiat zamojski,2015,13.9
-620000,Powiat zamojski,2016,12.1
-620000,Powiat zamojski,2017,10.6
-620000,Powiat zamojski,2018,9.1
-620000,Powiat zamojski,2019,8.3
-620000,Powiat zamojski,2020,9.4
-620000,Powiat zamojski,2021,12.9
-620000,Powiat zamojski,2022,10.7
-620000,Powiat zamojski,2023,10.6
-620000,Powiat zamojski,2024,10.6
-661000,Powiat m. Biała Podlaska,2013,16.4
-661000,Powiat m. Biała Podlaska,2014,15.0
-661000,Powiat m. Biała Podlaska,2015,13.7
-661000,Powiat m. Biała Podlaska,2016,12.7
-661000,Powiat m. Biała Podlaska,2017,11.2
-661000,Powiat m. Biała Podlaska,2018,10.3
-661000,Powiat m. Biała Podlaska,2019,9.9
-661000,Powiat m. Biała Podlaska,2020,10.8
-661000,Powiat m. Biała Podlaska,2021,9.1
-661000,Powiat m. Biała Podlaska,2022,7.8
-661000,Powiat m. Biała Podlaska,2023,7.0
-661000,Powiat m. Biała Podlaska,2024,7.1
-662000,Powiat m. Chełm,2013,18.3
-662000,Powiat m. Chełm,2014,15.8
-662000,Powiat m. Chełm,2015,14.7
-662000,Powiat m. Chełm,2016,13.1
-662000,Powiat m. Chełm,2017,12.2
-662000,Powiat m. Chełm,2018,11.2
-662000,Powiat m. Chełm,2019,11.0
-662000,Powiat m. Chełm,2020,12.0
-662000,Powiat m. Chełm,2021,10.2
-662000,Powiat m. Chełm,2022,9.4
-662000,Powiat m. Chełm,2023,8.3
-662000,Powiat m. Chełm,2024,8.3
-663000,Powiat m. Lublin,2013,10.0
-663000,Powiat m. Lublin,2014,8.6
-663000,Powiat m. Lublin,2015,7.9
-663000,Powiat m. Lublin,2016,7.2
-663000,Powiat m. Lublin,2017,6.2
-663000,Powiat m. Lublin,2018,5.5
-663000,Powiat m. Lublin,2019,5.0
-663000,Powiat m. Lublin,2020,5.6
-663000,Powiat m. Lublin,2021,5.2
-663000,Powiat m. Lublin,2022,5.1
-663000,Powiat m. Lublin,2023,4.2
-663000,Powiat m. Lublin,2024,4.1
-664000,Powiat m. Zamość,2013,16.5
-664000,Powiat m. Zamość,2014,14.8
-664000,Powiat m. Zamość,2015,14.0
-664000,Powiat m. Zamość,2016,12.3
-664000,Powiat m. Zamość,2017,11.0
-664000,Powiat m. Zamość,2018,10.0
-664000,Powiat m. Zamość,2019,8.7
-664000,Powiat m. Zamość,2020,10.0
-664000,Powiat m. Zamość,2021,8.9
-664000,Powiat m. Zamość,2022,8.1
-664000,Powiat m. Zamość,2023,7.9
-664000,Powiat m. Zamość,2024,8.0
-800000,LUBUSKIE,2013,15.7
-800000,LUBUSKIE,2014,12.5
-800000,LUBUSKIE,2015,10.5
-800000,LUBUSKIE,2016,8.6
-800000,LUBUSKIE,2017,6.5
-800000,LUBUSKIE,2018,5.8
-800000,LUBUSKIE,2019,4.9
-800000,LUBUSKIE,2020,6.3
-800000,LUBUSKIE,2021,5.1
-800000,LUBUSKIE,2022,4.4
-800000,LUBUSKIE,2023,4.3
-800000,LUBUSKIE,2024,4.5
-801000,Powiat gorzowski,2013,12.9
-801000,Powiat gorzowski,2014,8.8
-801000,Powiat gorzowski,2015,8.1
-801000,Powiat gorzowski,2016,6.9
-801000,Powiat gorzowski,2017,4.8
-801000,Powiat gorzowski,2018,4.3
-801000,Powiat gorzowski,2019,3.5
-801000,Powiat gorzowski,2020,5.3
-801000,Powiat gorzowski,2021,4.1
-801000,Powiat gorzowski,2022,3.0
-801000,Powiat gorzowski,2023,3.3
-801000,Powiat gorzowski,2024,3.6
-802000,Powiat krośnieński,2013,24.1
-802000,Powiat krośnieński,2014,18.6
-802000,Powiat krośnieński,2015,17.0
-802000,Powiat krośnieński,2016,14.3
-802000,Powiat krośnieński,2017,11.3
-802000,Powiat krośnieński,2018,9.3
-802000,Powiat krośnieński,2019,7.8
-802000,Powiat krośnieński,2020,9.3
-802000,Powiat krośnieński,2021,7.9
-802000,Powiat krośnieński,2022,6.2
-802000,Powiat krośnieński,2023,6.2
-802000,Powiat krośnieński,2024,5.7
-803000,Powiat międzyrzecki,2013,23.6
-803000,Powiat międzyrzecki,2014,18.6
-803000,Powiat międzyrzecki,2015,15.9
-803000,Powiat międzyrzecki,2016,15.0
-803000,Powiat międzyrzecki,2017,13.4
-803000,Powiat międzyrzecki,2018,12.0
-803000,Powiat międzyrzecki,2019,9.4
-803000,Powiat międzyrzecki,2020,10.1
-803000,Powiat międzyrzecki,2021,7.6
-803000,Powiat międzyrzecki,2022,7.3
-803000,Powiat międzyrzecki,2023,7.1
-803000,Powiat międzyrzecki,2024,7.3
-804000,Powiat nowosolski,2013,25.5
-804000,Powiat nowosolski,2014,20.7
-804000,Powiat nowosolski,2015,17.9
-804000,Powiat nowosolski,2016,14.2
-804000,Powiat nowosolski,2017,10.5
-804000,Powiat nowosolski,2018,8.5
-804000,Powiat nowosolski,2019,6.2
-804000,Powiat nowosolski,2020,7.1
-804000,Powiat nowosolski,2021,5.2
-804000,Powiat nowosolski,2022,5.1
-804000,Powiat nowosolski,2023,5.5
-804000,Powiat nowosolski,2024,6.0
-805000,Powiat słubicki,2013,13.1
-805000,Powiat słubicki,2014,7.9
-805000,Powiat słubicki,2015,6.3
-805000,Powiat słubicki,2016,4.2
-805000,Powiat słubicki,2017,3.1
-805000,Powiat słubicki,2018,2.5
-805000,Powiat słubicki,2019,2.4
-805000,Powiat słubicki,2020,3.7
-805000,Powiat słubicki,2021,2.5
-805000,Powiat słubicki,2022,2.3
-805000,Powiat słubicki,2023,2.2
-805000,Powiat słubicki,2024,2.3
-806000,Powiat strzelecko-drezdenecki,2013,25.5
-806000,Powiat strzelecko-drezdenecki,2014,20.1
-806000,Powiat strzelecko-drezdenecki,2015,17.6
-806000,Powiat strzelecko-drezdenecki,2016,14.9
-806000,Powiat strzelecko-drezdenecki,2017,11.5
-806000,Powiat strzelecko-drezdenecki,2018,11.0
-806000,Powiat strzelecko-drezdenecki,2019,9.8
-806000,Powiat strzelecko-drezdenecki,2020,10.4
-806000,Powiat strzelecko-drezdenecki,2021,10.4
-806000,Powiat strzelecko-drezdenecki,2022,9.1
-806000,Powiat strzelecko-drezdenecki,2023,9.0
-806000,Powiat strzelecko-drezdenecki,2024,10.0
-807000,Powiat sulęciński,2013,15.3
-807000,Powiat sulęciński,2014,13.6
-807000,Powiat sulęciński,2015,11.7
-807000,Powiat sulęciński,2016,9.7
-807000,Powiat sulęciński,2017,6.8
-807000,Powiat sulęciński,2018,6.4
-807000,Powiat sulęciński,2019,5.7
-807000,Powiat sulęciński,2020,6.7
-807000,Powiat sulęciński,2021,4.7
-807000,Powiat sulęciński,2022,4.5
-807000,Powiat sulęciński,2023,4.4
-807000,Powiat sulęciński,2024,4.4
-808000,Powiat świebodziński,2013,13.5
-808000,Powiat świebodziński,2014,10.2
-808000,Powiat świebodziński,2015,9.0
-808000,Powiat świebodziński,2016,7.6
-808000,Powiat świebodziński,2017,5.2
-808000,Powiat świebodziński,2018,4.4
-808000,Powiat świebodziński,2019,3.5
-808000,Powiat świebodziński,2020,5.5
-808000,Powiat świebodziński,2021,3.2
-808000,Powiat świebodziński,2022,2.7
-808000,Powiat świebodziński,2023,2.5
-808000,Powiat świebodziński,2024,2.2
-809000,Powiat zielonogórski,2013,15.2
-809000,Powiat zielonogórski,2014,13.5
-809000,Powiat zielonogórski,2015,11.1
-809000,Powiat zielonogórski,2016,9.0
-809000,Powiat zielonogórski,2017,6.9
-809000,Powiat zielonogórski,2018,6.7
-809000,Powiat zielonogórski,2019,5.9
-809000,Powiat zielonogórski,2020,8.2
-809000,Powiat zielonogórski,2021,8.6
-809000,Powiat zielonogórski,2022,7.4
-809000,Powiat zielonogórski,2023,6.6
-809000,Powiat zielonogórski,2024,6.7
-810000,Powiat żagański,2013,25.7
-810000,Powiat żagański,2014,22.2
-810000,Powiat żagański,2015,17.9
-810000,Powiat żagański,2016,14.4
-810000,Powiat żagański,2017,11.3
-810000,Powiat żagański,2018,9.4
-810000,Powiat żagański,2019,8.8
-810000,Powiat żagański,2020,9.0
-810000,Powiat żagański,2021,7.1
-810000,Powiat żagański,2022,6.2
-810000,Powiat żagański,2023,5.2
-810000,Powiat żagański,2024,5.3
-811000,Powiat żarski,2013,16.5
-811000,Powiat żarski,2014,12.9
-811000,Powiat żarski,2015,9.7
-811000,Powiat żarski,2016,8.2
-811000,Powiat żarski,2017,6.4
-811000,Powiat żarski,2018,6.0
-811000,Powiat żarski,2019,5.3
-811000,Powiat żarski,2020,6.8
-811000,Powiat żarski,2021,5.9
-811000,Powiat żarski,2022,5.2
-811000,Powiat żarski,2023,5.0
-811000,Powiat żarski,2024,5.3
-812000,Powiat wschowski,2013,16.3
-812000,Powiat wschowski,2014,13.3
-812000,Powiat wschowski,2015,12.1
-812000,Powiat wschowski,2016,11.1
-812000,Powiat wschowski,2017,9.1
-812000,Powiat wschowski,2018,8.5
-812000,Powiat wschowski,2019,7.8
-812000,Powiat wschowski,2020,9.0
-812000,Powiat wschowski,2021,8.5
-812000,Powiat wschowski,2022,7.4
-812000,Powiat wschowski,2023,7.5
-812000,Powiat wschowski,2024,7.5
-861000,Powiat m. Gorzów Wielkopolski,2013,8.5
-861000,Powiat m. Gorzów Wielkopolski,2014,5.9
-861000,Powiat m. Gorzów Wielkopolski,2015,5.1
-861000,Powiat m. Gorzów Wielkopolski,2016,3.9
-861000,Powiat m. Gorzów Wielkopolski,2017,2.7
-861000,Powiat m. Gorzów Wielkopolski,2018,2.6
-861000,Powiat m. Gorzów Wielkopolski,2019,2.3
-861000,Powiat m. Gorzów Wielkopolski,2020,4.0
-861000,Powiat m. Gorzów Wielkopolski,2021,2.6
-861000,Powiat m. Gorzów Wielkopolski,2022,2.3
-861000,Powiat m. Gorzów Wielkopolski,2023,2.2
-861000,Powiat m. Gorzów Wielkopolski,2024,2.4
-862000,Powiat m. Zielona Góra,2013,7.8
-862000,Powiat m. Zielona Góra,2014,7.3
-862000,Powiat m. Zielona Góra,2015,6.3
-862000,Powiat m. Zielona Góra,2016,4.6
-862000,Powiat m. Zielona Góra,2017,3.4
-862000,Powiat m. Zielona Góra,2018,3.3
-862000,Powiat m. Zielona Góra,2019,2.4
-862000,Powiat m. Zielona Góra,2020,4.0
-862000,Powiat m. Zielona Góra,2021,3.5
-862000,Powiat m. Zielona Góra,2022,2.6
-862000,Powiat m. Zielona Góra,2023,2.9
-862000,Powiat m. Zielona Góra,2024,3.0
+0000000,POLSKA,2013,13.4
+0000000,POLSKA,2014,11.4
+0000000,POLSKA,2015,9.7
+0000000,POLSKA,2016,8.2
+0000000,POLSKA,2017,6.6
+0000000,POLSKA,2018,5.8
+0000000,POLSKA,2019,5.2
+0000000,POLSKA,2020,6.3
+0000000,POLSKA,2021,5.8
+0000000,POLSKA,2022,5.2
+0000000,POLSKA,2023,5.1
+0000000,POLSKA,2024,5.1
+0200000,DOLNOŚLĄSKIE,2013,13.1
+0200000,DOLNOŚLĄSKIE,2014,10.4
+0200000,DOLNOŚLĄSKIE,2015,8.5
+0200000,DOLNOŚLĄSKIE,2016,7.2
+0200000,DOLNOŚLĄSKIE,2017,5.7
+0200000,DOLNOŚLĄSKIE,2018,5.2
+0200000,DOLNOŚLĄSKIE,2019,4.6
+0200000,DOLNOŚLĄSKIE,2020,5.6
+0200000,DOLNOŚLĄSKIE,2021,4.9
+0200000,DOLNOŚLĄSKIE,2022,4.5
+0200000,DOLNOŚLĄSKIE,2023,4.4
+0200000,DOLNOŚLĄSKIE,2024,4.6
+0201000,Powiat bolesławiecki,2013,12.6
+0201000,Powiat bolesławiecki,2014,8.9
+0201000,Powiat bolesławiecki,2015,7.6
+0201000,Powiat bolesławiecki,2016,5.7
+0201000,Powiat bolesławiecki,2017,4.2
+0201000,Powiat bolesławiecki,2018,3.8
+0201000,Powiat bolesławiecki,2019,3.8
+0201000,Powiat bolesławiecki,2020,5.6
+0201000,Powiat bolesławiecki,2021,5.1
+0201000,Powiat bolesławiecki,2022,3.1
+0201000,Powiat bolesławiecki,2023,2.8
+0201000,Powiat bolesławiecki,2024,3.1
+0202000,Powiat dzierżoniowski,2013,20.2
+0202000,Powiat dzierżoniowski,2014,15.8
+0202000,Powiat dzierżoniowski,2015,11.9
+0202000,Powiat dzierżoniowski,2016,10.0
+0202000,Powiat dzierżoniowski,2017,7.4
+0202000,Powiat dzierżoniowski,2018,6.1
+0202000,Powiat dzierżoniowski,2019,5.2
+0202000,Powiat dzierżoniowski,2020,6.8
+0202000,Powiat dzierżoniowski,2021,5.5
+0202000,Powiat dzierżoniowski,2022,5.2
+0202000,Powiat dzierżoniowski,2023,5.6
+0202000,Powiat dzierżoniowski,2024,6.1
+0203000,Powiat głogowski,2013,14.9
+0203000,Powiat głogowski,2014,13.6
+0203000,Powiat głogowski,2015,12.5
+0203000,Powiat głogowski,2016,10.5
+0203000,Powiat głogowski,2017,9.1
+0203000,Powiat głogowski,2018,8.9
+0203000,Powiat głogowski,2019,7.1
+0203000,Powiat głogowski,2020,7.8
+0203000,Powiat głogowski,2021,7.7
+0203000,Powiat głogowski,2022,6.4
+0203000,Powiat głogowski,2023,6.5
+0203000,Powiat głogowski,2024,6.6
+0204000,Powiat górowski,2013,28.3
+0204000,Powiat górowski,2014,23.4
+0204000,Powiat górowski,2015,22.2
+0204000,Powiat górowski,2016,18.5
+0204000,Powiat górowski,2017,16.5
+0204000,Powiat górowski,2018,15.3
+0204000,Powiat górowski,2019,14.2
+0204000,Powiat górowski,2020,15.7
+0204000,Powiat górowski,2021,18.3
+0204000,Powiat górowski,2022,13.8
+0204000,Powiat górowski,2023,14.2
+0204000,Powiat górowski,2024,14.3
+0205000,Powiat jaworski,2013,24.3
+0205000,Powiat jaworski,2014,18.6
+0205000,Powiat jaworski,2015,17.3
+0205000,Powiat jaworski,2016,15.8
+0205000,Powiat jaworski,2017,13.5
+0205000,Powiat jaworski,2018,12.4
+0205000,Powiat jaworski,2019,10.6
+0205000,Powiat jaworski,2020,11.3
+0205000,Powiat jaworski,2021,10.8
+0205000,Powiat jaworski,2022,10.2
+0205000,Powiat jaworski,2023,9.7
+0205000,Powiat jaworski,2024,9.8
+0206000,Powiat karkonoski,2013,19.8
+0206000,Powiat karkonoski,2014,15.7
+0206000,Powiat karkonoski,2015,12.9
+0206000,Powiat karkonoski,2016,11.4
+0206000,Powiat karkonoski,2017,9.2
+0206000,Powiat karkonoski,2018,8.9
+0206000,Powiat karkonoski,2019,8.2
+0206000,Powiat karkonoski,2020,10.1
+0206000,Powiat karkonoski,2021,10.5
+0206000,Powiat karkonoski,2022,8.5
+0206000,Powiat karkonoski,2023,8.5
+0206000,Powiat karkonoski,2024,8.5
+0207000,Powiat kamiennogórski,2013,20.5
+0207000,Powiat kamiennogórski,2014,15.6
+0207000,Powiat kamiennogórski,2015,11.6
+0207000,Powiat kamiennogórski,2016,10.3
+0207000,Powiat kamiennogórski,2017,7.5
+0207000,Powiat kamiennogórski,2018,6.2
+0207000,Powiat kamiennogórski,2019,5.8
+0207000,Powiat kamiennogórski,2020,8.0
+0207000,Powiat kamiennogórski,2021,6.6
+0207000,Powiat kamiennogórski,2022,6.1
+0207000,Powiat kamiennogórski,2023,6.1
+0207000,Powiat kamiennogórski,2024,7.4
+0208000,Powiat kłodzki,2013,27.1
+0208000,Powiat kłodzki,2014,23.6
+0208000,Powiat kłodzki,2015,19.9
+0208000,Powiat kłodzki,2016,16.0
+0208000,Powiat kłodzki,2017,12.5
+0208000,Powiat kłodzki,2018,11.8
+0208000,Powiat kłodzki,2019,11.1
+0208000,Powiat kłodzki,2020,12.6
+0208000,Powiat kłodzki,2021,12.5
+0208000,Powiat kłodzki,2022,11.8
+0208000,Powiat kłodzki,2023,11.7
+0208000,Powiat kłodzki,2024,12.7
+0209000,Powiat legnicki,2013,21.3
+0209000,Powiat legnicki,2014,17.4
+0209000,Powiat legnicki,2015,14.8
+0209000,Powiat legnicki,2016,13.0
+0209000,Powiat legnicki,2017,11.5
+0209000,Powiat legnicki,2018,10.1
+0209000,Powiat legnicki,2019,8.1
+0209000,Powiat legnicki,2020,8.7
+0209000,Powiat legnicki,2021,8.4
+0209000,Powiat legnicki,2022,8.1
+0209000,Powiat legnicki,2023,7.3
+0209000,Powiat legnicki,2024,7.0
+0210000,Powiat lubański,2013,21.6
+0210000,Powiat lubański,2014,17.8
+0210000,Powiat lubański,2015,14.2
+0210000,Powiat lubański,2016,11.3
+0210000,Powiat lubański,2017,9.3
+0210000,Powiat lubański,2018,7.3
+0210000,Powiat lubański,2019,6.9
+0210000,Powiat lubański,2020,8.9
+0210000,Powiat lubański,2021,8.0
+0210000,Powiat lubański,2022,7.1
+0210000,Powiat lubański,2023,6.7
+0210000,Powiat lubański,2024,7.1
+0211000,Powiat lubiński,2013,10.9
+0211000,Powiat lubiński,2014,8.9
+0211000,Powiat lubiński,2015,7.0
+0211000,Powiat lubiński,2016,5.9
+0211000,Powiat lubiński,2017,5.0
+0211000,Powiat lubiński,2018,4.8
+0211000,Powiat lubiński,2019,4.1
+0211000,Powiat lubiński,2020,5.0
+0211000,Powiat lubiński,2021,4.0
+0211000,Powiat lubiński,2022,3.9
+0211000,Powiat lubiński,2023,3.8
+0211000,Powiat lubiński,2024,4.0
+0212000,Powiat lwówecki,2013,26.2
+0212000,Powiat lwówecki,2014,22.4
+0212000,Powiat lwówecki,2015,19.4
+0212000,Powiat lwówecki,2016,16.9
+0212000,Powiat lwówecki,2017,13.0
+0212000,Powiat lwówecki,2018,12.2
+0212000,Powiat lwówecki,2019,11.2
+0212000,Powiat lwówecki,2020,11.5
+0212000,Powiat lwówecki,2021,9.5
+0212000,Powiat lwówecki,2022,8.7
+0212000,Powiat lwówecki,2023,8.7
+0212000,Powiat lwówecki,2024,8.7
+0213000,Powiat milicki,2013,18.1
+0213000,Powiat milicki,2014,14.5
+0213000,Powiat milicki,2015,12.0
+0213000,Powiat milicki,2016,9.8
+0213000,Powiat milicki,2017,7.8
+0213000,Powiat milicki,2018,6.8
+0213000,Powiat milicki,2019,6.4
+0213000,Powiat milicki,2020,6.9
+0213000,Powiat milicki,2021,5.8
+0213000,Powiat milicki,2022,6.3
+0213000,Powiat milicki,2023,6.4
+0213000,Powiat milicki,2024,6.1
+0214000,Powiat oleśnicki,2013,16.0
+0214000,Powiat oleśnicki,2014,12.0
+0214000,Powiat oleśnicki,2015,9.8
+0214000,Powiat oleśnicki,2016,8.0
+0214000,Powiat oleśnicki,2017,6.1
+0214000,Powiat oleśnicki,2018,5.4
+0214000,Powiat oleśnicki,2019,5.2
+0214000,Powiat oleśnicki,2020,6.7
+0214000,Powiat oleśnicki,2021,6.0
+0214000,Powiat oleśnicki,2022,6.0
+0214000,Powiat oleśnicki,2023,5.8
+0214000,Powiat oleśnicki,2024,5.9
+0215000,Powiat oławski,2013,12.7
+0215000,Powiat oławski,2014,8.7
+0215000,Powiat oławski,2015,7.8
+0215000,Powiat oławski,2016,7.0
+0215000,Powiat oławski,2017,5.6
+0215000,Powiat oławski,2018,5.4
+0215000,Powiat oławski,2019,4.4
+0215000,Powiat oławski,2020,4.9
+0215000,Powiat oławski,2021,4.0
+0215000,Powiat oławski,2022,4.2
+0215000,Powiat oławski,2023,3.9
+0215000,Powiat oławski,2024,4.3
+0216000,Powiat polkowicki,2013,8.8
+0216000,Powiat polkowicki,2014,7.8
+0216000,Powiat polkowicki,2015,6.3
+0216000,Powiat polkowicki,2016,5.8
+0216000,Powiat polkowicki,2017,4.7
+0216000,Powiat polkowicki,2018,4.5
+0216000,Powiat polkowicki,2019,4.4
+0216000,Powiat polkowicki,2020,4.8
+0216000,Powiat polkowicki,2021,4.9
+0216000,Powiat polkowicki,2022,4.4
+0216000,Powiat polkowicki,2023,4.3
+0216000,Powiat polkowicki,2024,4.2
+0217000,Powiat strzeliński,2013,18.0
+0217000,Powiat strzeliński,2014,15.1
+0217000,Powiat strzeliński,2015,13.3
+0217000,Powiat strzeliński,2016,12.3
+0217000,Powiat strzeliński,2017,11.0
+0217000,Powiat strzeliński,2018,10.5
+0217000,Powiat strzeliński,2019,9.7
+0217000,Powiat strzeliński,2020,11.2
+0217000,Powiat strzeliński,2021,11.8
+0217000,Powiat strzeliński,2022,10.4
+0217000,Powiat strzeliński,2023,10.4
+0217000,Powiat strzeliński,2024,10.5
+0218000,Powiat średzki,2013,13.1
+0218000,Powiat średzki,2014,10.5
+0218000,Powiat średzki,2015,8.2
+0218000,Powiat średzki,2016,7.3
+0218000,Powiat średzki,2017,6.0
+0218000,Powiat średzki,2018,5.5
+0218000,Powiat średzki,2019,4.8
+0218000,Powiat średzki,2020,5.8
+0218000,Powiat średzki,2021,5.8
+0218000,Powiat średzki,2022,4.7
+0218000,Powiat średzki,2023,4.6
+0218000,Powiat średzki,2024,5.2
+0219000,Powiat świdnicki,2013,13.8
+0219000,Powiat świdnicki,2014,11.2
+0219000,Powiat świdnicki,2015,9.9
+0219000,Powiat świdnicki,2016,8.6
+0219000,Powiat świdnicki,2017,6.9
+0219000,Powiat świdnicki,2018,6.2
+0219000,Powiat świdnicki,2019,5.6
+0219000,Powiat świdnicki,2020,6.9
+0219000,Powiat świdnicki,2021,5.7
+0219000,Powiat świdnicki,2022,5.6
+0219000,Powiat świdnicki,2023,5.9
+0219000,Powiat świdnicki,2024,6.3
+0220000,Powiat trzebnicki,2013,14.4
+0220000,Powiat trzebnicki,2014,10.9
+0220000,Powiat trzebnicki,2015,9.0
+0220000,Powiat trzebnicki,2016,7.9
+0220000,Powiat trzebnicki,2017,6.7
+0220000,Powiat trzebnicki,2018,5.8
+0220000,Powiat trzebnicki,2019,5.1
+0220000,Powiat trzebnicki,2020,5.5
+0220000,Powiat trzebnicki,2021,5.1
+0220000,Powiat trzebnicki,2022,4.8
+0220000,Powiat trzebnicki,2023,5.0
+0220000,Powiat trzebnicki,2024,5.2
+0221000,Powiat wałbrzyski,2013,29.8
+0221000,Powiat wałbrzyski,2014,24.9
+0221000,Powiat wałbrzyski,2015,22.4
+0221000,Powiat wałbrzyski,2016,19.3
+0221000,Powiat wałbrzyski,2017,14.3
+0221000,Powiat wałbrzyski,2018,13.6
+0221000,Powiat wałbrzyski,2019,12.8
+0221000,Powiat wałbrzyski,2020,14.9
+0221000,Powiat wałbrzyski,2021,13.9
+0221000,Powiat wałbrzyski,2022,11.7
+0221000,Powiat wałbrzyski,2023,11.7
+0221000,Powiat wałbrzyski,2024,11.7
+0222000,Powiat wołowski,2013,21.8
+0222000,Powiat wołowski,2014,18.3
+0222000,Powiat wołowski,2015,15.0
+0222000,Powiat wołowski,2016,14.4
+0222000,Powiat wołowski,2017,12.1
+0222000,Powiat wołowski,2018,11.3
+0222000,Powiat wołowski,2019,10.6
+0222000,Powiat wołowski,2020,11.7
+0222000,Powiat wołowski,2021,12.2
+0222000,Powiat wołowski,2022,11.2
+0222000,Powiat wołowski,2023,11.2
+0222000,Powiat wołowski,2024,10.5
+0223000,Powiat wrocławski,2013,5.3
+0223000,Powiat wrocławski,2014,3.9
+0223000,Powiat wrocławski,2015,3.4
+0223000,Powiat wrocławski,2016,2.7
+0223000,Powiat wrocławski,2017,2.0
+0223000,Powiat wrocławski,2018,1.8
+0223000,Powiat wrocławski,2019,1.6
+0223000,Powiat wrocławski,2020,2.0
+0223000,Powiat wrocławski,2021,1.8
+0223000,Powiat wrocławski,2022,1.4
+0223000,Powiat wrocławski,2023,1.4
+0223000,Powiat wrocławski,2024,1.5
+0224000,Powiat ząbkowicki,2013,22.4
+0224000,Powiat ząbkowicki,2014,19.0
+0224000,Powiat ząbkowicki,2015,14.9
+0224000,Powiat ząbkowicki,2016,13.8
+0224000,Powiat ząbkowicki,2017,11.8
+0224000,Powiat ząbkowicki,2018,10.9
+0224000,Powiat ząbkowicki,2019,9.4
+0224000,Powiat ząbkowicki,2020,10.2
+0224000,Powiat ząbkowicki,2021,9.7
+0224000,Powiat ząbkowicki,2022,9.5
+0224000,Powiat ząbkowicki,2023,10.1
+0224000,Powiat ząbkowicki,2024,10.4
+0225000,Powiat zgorzelecki,2013,14.7
+0225000,Powiat zgorzelecki,2014,12.1
+0225000,Powiat zgorzelecki,2015,9.0
+0225000,Powiat zgorzelecki,2016,7.7
+0225000,Powiat zgorzelecki,2017,5.4
+0225000,Powiat zgorzelecki,2018,5.1
+0225000,Powiat zgorzelecki,2019,4.9
+0225000,Powiat zgorzelecki,2020,6.0
+0225000,Powiat zgorzelecki,2021,5.6
+0225000,Powiat zgorzelecki,2022,5.1
+0225000,Powiat zgorzelecki,2023,5.0
+0225000,Powiat zgorzelecki,2024,5.4
+0226000,Powiat złotoryjski,2013,28.6
+0226000,Powiat złotoryjski,2014,24.5
+0226000,Powiat złotoryjski,2015,21.2
+0226000,Powiat złotoryjski,2016,18.9
+0226000,Powiat złotoryjski,2017,16.0
+0226000,Powiat złotoryjski,2018,14.8
+0226000,Powiat złotoryjski,2019,13.1
+0226000,Powiat złotoryjski,2020,14.2
+0226000,Powiat złotoryjski,2021,13.8
+0226000,Powiat złotoryjski,2022,13.7
+0226000,Powiat złotoryjski,2023,13.3
+0226000,Powiat złotoryjski,2024,13.9
+0261000,Powiat m. Jelenia Góra,2013,9.3
+0261000,Powiat m. Jelenia Góra,2014,7.5
+0261000,Powiat m. Jelenia Góra,2015,5.7
+0261000,Powiat m. Jelenia Góra,2016,4.6
+0261000,Powiat m. Jelenia Góra,2017,3.6
+0261000,Powiat m. Jelenia Góra,2018,3.6
+0261000,Powiat m. Jelenia Góra,2019,3.2
+0261000,Powiat m. Jelenia Góra,2020,4.6
+0261000,Powiat m. Jelenia Góra,2021,3.8
+0261000,Powiat m. Jelenia Góra,2022,3.6
+0261000,Powiat m. Jelenia Góra,2023,3.9
+0261000,Powiat m. Jelenia Góra,2024,4.1
+0262000,Powiat m. Legnica,2013,10.3
+0262000,Powiat m. Legnica,2014,8.5
+0262000,Powiat m. Legnica,2015,7.1
+0262000,Powiat m. Legnica,2016,6.7
+0262000,Powiat m. Legnica,2017,5.5
+0262000,Powiat m. Legnica,2018,5.0
+0262000,Powiat m. Legnica,2019,4.2
+0262000,Powiat m. Legnica,2020,5.7
+0262000,Powiat m. Legnica,2021,5.2
+0262000,Powiat m. Legnica,2022,5.1
+0262000,Powiat m. Legnica,2023,4.5
+0262000,Powiat m. Legnica,2024,4.7
+0264000,Powiat m. Wrocław,2013,5.5
+0264000,Powiat m. Wrocław,2014,4.1
+0264000,Powiat m. Wrocław,2015,3.3
+0264000,Powiat m. Wrocław,2016,2.7
+0264000,Powiat m. Wrocław,2017,2.1
+0264000,Powiat m. Wrocław,2018,1.9
+0264000,Powiat m. Wrocław,2019,1.6
+0264000,Powiat m. Wrocław,2020,2.4
+0264000,Powiat m. Wrocław,2021,1.9
+0264000,Powiat m. Wrocław,2022,1.6
+0264000,Powiat m. Wrocław,2023,1.6
+0264000,Powiat m. Wrocław,2024,1.7
+0265000,Powiat m. Wałbrzych od 2013,2013,16.8
+0265000,Powiat m. Wałbrzych od 2013,2014,13.1
+0265000,Powiat m. Wałbrzych od 2013,2015,10.4
+0265000,Powiat m. Wałbrzych od 2013,2016,9.2
+0265000,Powiat m. Wałbrzych od 2013,2017,7.2
+0265000,Powiat m. Wałbrzych od 2013,2018,6.0
+0265000,Powiat m. Wałbrzych od 2013,2019,4.9
+0265000,Powiat m. Wałbrzych od 2013,2020,6.0
+0265000,Powiat m. Wałbrzych od 2013,2021,4.8
+0265000,Powiat m. Wałbrzych od 2013,2022,4.2
+0265000,Powiat m. Wałbrzych od 2013,2023,4.4
+0265000,Powiat m. Wałbrzych od 2013,2024,5.1
+0400000,KUJAWSKO-POMORSKIE,2013,18.2
+0400000,KUJAWSKO-POMORSKIE,2014,15.5
+0400000,KUJAWSKO-POMORSKIE,2015,13.2
+0400000,KUJAWSKO-POMORSKIE,2016,12.0
+0400000,KUJAWSKO-POMORSKIE,2017,9.9
+0400000,KUJAWSKO-POMORSKIE,2018,8.8
+0400000,KUJAWSKO-POMORSKIE,2019,7.9
+0400000,KUJAWSKO-POMORSKIE,2020,9.0
+0400000,KUJAWSKO-POMORSKIE,2021,8.1
+0400000,KUJAWSKO-POMORSKIE,2022,7.3
+0400000,KUJAWSKO-POMORSKIE,2023,7.1
+0400000,KUJAWSKO-POMORSKIE,2024,7.3
+0401000,Powiat aleksandrowski,2013,24.2
+0401000,Powiat aleksandrowski,2014,22.3
+0401000,Powiat aleksandrowski,2015,18.9
+0401000,Powiat aleksandrowski,2016,16.9
+0401000,Powiat aleksandrowski,2017,14.2
+0401000,Powiat aleksandrowski,2018,12.9
+0401000,Powiat aleksandrowski,2019,12.2
+0401000,Powiat aleksandrowski,2020,14.8
+0401000,Powiat aleksandrowski,2021,13.5
+0401000,Powiat aleksandrowski,2022,11.3
+0401000,Powiat aleksandrowski,2023,10.9
+0401000,Powiat aleksandrowski,2024,10.3
+0402000,Powiat brodnicki,2013,15.7
+0402000,Powiat brodnicki,2014,13.2
+0402000,Powiat brodnicki,2015,11.4
+0402000,Powiat brodnicki,2016,9.8
+0402000,Powiat brodnicki,2017,7.7
+0402000,Powiat brodnicki,2018,7.2
+0402000,Powiat brodnicki,2019,7.0
+0402000,Powiat brodnicki,2020,8.4
+0402000,Powiat brodnicki,2021,6.7
+0402000,Powiat brodnicki,2022,6.9
+0402000,Powiat brodnicki,2023,6.7
+0402000,Powiat brodnicki,2024,6.7
+0403000,Powiat bydgoski,2013,13.8
+0403000,Powiat bydgoski,2014,11.8
+0403000,Powiat bydgoski,2015,8.9
+0403000,Powiat bydgoski,2016,7.8
+0403000,Powiat bydgoski,2017,6.4
+0403000,Powiat bydgoski,2018,5.5
+0403000,Powiat bydgoski,2019,4.1
+0403000,Powiat bydgoski,2020,5.2
+0403000,Powiat bydgoski,2021,3.9
+0403000,Powiat bydgoski,2022,3.3
+0403000,Powiat bydgoski,2023,3.1
+0403000,Powiat bydgoski,2024,3.3
+0404000,Powiat chełmiński,2013,24.7
+0404000,Powiat chełmiński,2014,20.9
+0404000,Powiat chełmiński,2015,17.5
+0404000,Powiat chełmiński,2016,15.7
+0404000,Powiat chełmiński,2017,13.8
+0404000,Powiat chełmiński,2018,12.6
+0404000,Powiat chełmiński,2019,11.8
+0404000,Powiat chełmiński,2020,13.2
+0404000,Powiat chełmiński,2021,12.8
+0404000,Powiat chełmiński,2022,12.3
+0404000,Powiat chełmiński,2023,11.8
+0404000,Powiat chełmiński,2024,12.5
+0405000,Powiat golubsko-dobrzyński,2013,23.6
+0405000,Powiat golubsko-dobrzyński,2014,20.1
+0405000,Powiat golubsko-dobrzyński,2015,16.7
+0405000,Powiat golubsko-dobrzyński,2016,13.5
+0405000,Powiat golubsko-dobrzyński,2017,11.0
+0405000,Powiat golubsko-dobrzyński,2018,10.2
+0405000,Powiat golubsko-dobrzyński,2019,10.0
+0405000,Powiat golubsko-dobrzyński,2020,11.9
+0405000,Powiat golubsko-dobrzyński,2021,12.1
+0405000,Powiat golubsko-dobrzyński,2022,10.6
+0405000,Powiat golubsko-dobrzyński,2023,10.2
+0405000,Powiat golubsko-dobrzyński,2024,10.6
+0406000,Powiat grudziądzki,2013,26.0
+0406000,Powiat grudziądzki,2014,20.4
+0406000,Powiat grudziądzki,2015,16.5
+0406000,Powiat grudziądzki,2016,16.5
+0406000,Powiat grudziądzki,2017,14.2
+0406000,Powiat grudziądzki,2018,13.4
+0406000,Powiat grudziądzki,2019,10.6
+0406000,Powiat grudziądzki,2020,12.3
+0406000,Powiat grudziądzki,2021,13.4
+0406000,Powiat grudziądzki,2022,11.3
+0406000,Powiat grudziądzki,2023,10.5
+0406000,Powiat grudziądzki,2024,11.0
+0407000,Powiat inowrocławski,2013,23.8
+0407000,Powiat inowrocławski,2014,20.0
+0407000,Powiat inowrocławski,2015,18.2
+0407000,Powiat inowrocławski,2016,16.9
+0407000,Powiat inowrocławski,2017,14.4
+0407000,Powiat inowrocławski,2018,12.6
+0407000,Powiat inowrocławski,2019,11.0
+0407000,Powiat inowrocławski,2020,12.7
+0407000,Powiat inowrocławski,2021,12.4
+0407000,Powiat inowrocławski,2022,10.3
+0407000,Powiat inowrocławski,2023,10.6
+0407000,Powiat inowrocławski,2024,10.7
+0408000,Powiat lipnowski,2013,28.7
+0408000,Powiat lipnowski,2014,25.5
+0408000,Powiat lipnowski,2015,20.3
+0408000,Powiat lipnowski,2016,21.7
+0408000,Powiat lipnowski,2017,17.8
+0408000,Powiat lipnowski,2018,17.0
+0408000,Powiat lipnowski,2019,15.5
+0408000,Powiat lipnowski,2020,15.9
+0408000,Powiat lipnowski,2021,15.6
+0408000,Powiat lipnowski,2022,12.7
+0408000,Powiat lipnowski,2023,13.0
+0408000,Powiat lipnowski,2024,13.3
+0409000,Powiat mogileński,2013,22.6
+0409000,Powiat mogileński,2014,18.8
+0409000,Powiat mogileński,2015,15.8
+0409000,Powiat mogileński,2016,13.9
+0409000,Powiat mogileński,2017,11.5
+0409000,Powiat mogileński,2018,10.7
+0409000,Powiat mogileński,2019,9.8
+0409000,Powiat mogileński,2020,10.7
+0409000,Powiat mogileński,2021,10.6
+0409000,Powiat mogileński,2022,9.6
+0409000,Powiat mogileński,2023,9.7
+0409000,Powiat mogileński,2024,9.6
+0410000,Powiat nakielski,2013,23.6
+0410000,Powiat nakielski,2014,20.7
+0410000,Powiat nakielski,2015,17.5
+0410000,Powiat nakielski,2016,15.7
+0410000,Powiat nakielski,2017,13.1
+0410000,Powiat nakielski,2018,11.7
+0410000,Powiat nakielski,2019,10.5
+0410000,Powiat nakielski,2020,12.8
+0410000,Powiat nakielski,2021,11.6
+0410000,Powiat nakielski,2022,10.4
+0410000,Powiat nakielski,2023,9.8
+0410000,Powiat nakielski,2024,10.2
+0411000,Powiat radziejowski,2013,26.1
+0411000,Powiat radziejowski,2014,22.9
+0411000,Powiat radziejowski,2015,21.7
+0411000,Powiat radziejowski,2016,20.5
+0411000,Powiat radziejowski,2017,18.4
+0411000,Powiat radziejowski,2018,16.6
+0411000,Powiat radziejowski,2019,16.6
+0411000,Powiat radziejowski,2020,16.2
+0411000,Powiat radziejowski,2021,18.7
+0411000,Powiat radziejowski,2022,15.3
+0411000,Powiat radziejowski,2023,16.0
+0411000,Powiat radziejowski,2024,15.1
+0412000,Powiat rypiński,2013,21.2
+0412000,Powiat rypiński,2014,18.5
+0412000,Powiat rypiński,2015,15.7
+0412000,Powiat rypiński,2016,13.8
+0412000,Powiat rypiński,2017,11.8
+0412000,Powiat rypiński,2018,11.6
+0412000,Powiat rypiński,2019,9.9
+0412000,Powiat rypiński,2020,10.5
+0412000,Powiat rypiński,2021,10.5
+0412000,Powiat rypiński,2022,8.9
+0412000,Powiat rypiński,2023,9.0
+0412000,Powiat rypiński,2024,10.0
+0413000,Powiat sępoleński,2013,25.0
+0413000,Powiat sępoleński,2014,21.5
+0413000,Powiat sępoleński,2015,19.3
+0413000,Powiat sępoleński,2016,17.1
+0413000,Powiat sępoleński,2017,14.2
+0413000,Powiat sępoleński,2018,12.5
+0413000,Powiat sępoleński,2019,11.6
+0413000,Powiat sępoleński,2020,12.3
+0413000,Powiat sępoleński,2021,11.5
+0413000,Powiat sępoleński,2022,10.7
+0413000,Powiat sępoleński,2023,11.5
+0413000,Powiat sępoleński,2024,10.9
+0414000,Powiat świecki,2013,18.2
+0414000,Powiat świecki,2014,15.2
+0414000,Powiat świecki,2015,12.3
+0414000,Powiat świecki,2016,10.3
+0414000,Powiat świecki,2017,8.5
+0414000,Powiat świecki,2018,7.5
+0414000,Powiat świecki,2019,7.0
+0414000,Powiat świecki,2020,7.2
+0414000,Powiat świecki,2021,6.5
+0414000,Powiat świecki,2022,6.2
+0414000,Powiat świecki,2023,6.3
+0414000,Powiat świecki,2024,6.4
+0415000,Powiat toruński,2013,21.3
+0415000,Powiat toruński,2014,17.9
+0415000,Powiat toruński,2015,15.9
+0415000,Powiat toruński,2016,13.7
+0415000,Powiat toruński,2017,12.3
+0415000,Powiat toruński,2018,11.0
+0415000,Powiat toruński,2019,9.4
+0415000,Powiat toruński,2020,10.5
+0415000,Powiat toruński,2021,10.6
+0415000,Powiat toruński,2022,8.4
+0415000,Powiat toruński,2023,8.0
+0415000,Powiat toruński,2024,8.3
+0416000,Powiat tucholski,2013,21.9
+0416000,Powiat tucholski,2014,18.7
+0416000,Powiat tucholski,2015,16.8
+0416000,Powiat tucholski,2016,14.9
+0416000,Powiat tucholski,2017,12.5
+0416000,Powiat tucholski,2018,11.0
+0416000,Powiat tucholski,2019,9.7
+0416000,Powiat tucholski,2020,11.0
+0416000,Powiat tucholski,2021,10.6
+0416000,Powiat tucholski,2022,10.3
+0416000,Powiat tucholski,2023,10.8
+0416000,Powiat tucholski,2024,10.7
+0417000,Powiat wąbrzeski,2013,22.8
+0417000,Powiat wąbrzeski,2014,20.1
+0417000,Powiat wąbrzeski,2015,17.9
+0417000,Powiat wąbrzeski,2016,16.7
+0417000,Powiat wąbrzeski,2017,13.6
+0417000,Powiat wąbrzeski,2018,12.0
+0417000,Powiat wąbrzeski,2019,11.5
+0417000,Powiat wąbrzeski,2020,13.0
+0417000,Powiat wąbrzeski,2021,11.7
+0417000,Powiat wąbrzeski,2022,12.7
+0417000,Powiat wąbrzeski,2023,12.3
+0417000,Powiat wąbrzeski,2024,11.0
+0418000,Powiat włocławski,2013,27.3
+0418000,Powiat włocławski,2014,25.4
+0418000,Powiat włocławski,2015,23.3
+0418000,Powiat włocławski,2016,22.0
+0418000,Powiat włocławski,2017,18.5
+0418000,Powiat włocławski,2018,15.6
+0418000,Powiat włocławski,2019,13.9
+0418000,Powiat włocławski,2020,14.6
+0418000,Powiat włocławski,2021,16.0
+0418000,Powiat włocławski,2022,13.4
+0418000,Powiat włocławski,2023,12.8
+0418000,Powiat włocławski,2024,13.2
+0419000,Powiat żniński,2013,23.0
+0419000,Powiat żniński,2014,19.3
+0419000,Powiat żniński,2015,17.0
+0419000,Powiat żniński,2016,15.5
+0419000,Powiat żniński,2017,12.2
+0419000,Powiat żniński,2018,10.6
+0419000,Powiat żniński,2019,9.4
+0419000,Powiat żniński,2020,10.2
+0419000,Powiat żniński,2021,9.7
+0419000,Powiat żniński,2022,8.9
+0419000,Powiat żniński,2023,9.1
+0419000,Powiat żniński,2024,9.2
+0461000,Powiat m. Bydgoszcz,2013,8.8
+0461000,Powiat m. Bydgoszcz,2014,7.4
+0461000,Powiat m. Bydgoszcz,2015,5.4
+0461000,Powiat m. Bydgoszcz,2016,4.8
+0461000,Powiat m. Bydgoszcz,2017,3.9
+0461000,Powiat m. Bydgoszcz,2018,3.6
+0461000,Powiat m. Bydgoszcz,2019,2.9
+0461000,Powiat m. Bydgoszcz,2020,3.6
+0461000,Powiat m. Bydgoszcz,2021,2.5
+0461000,Powiat m. Bydgoszcz,2022,2.3
+0461000,Powiat m. Bydgoszcz,2023,2.2
+0461000,Powiat m. Bydgoszcz,2024,2.3
+0462000,Powiat m. Grudziądz,2013,20.9
+0462000,Powiat m. Grudziądz,2014,16.4
+0462000,Powiat m. Grudziądz,2015,14.2
+0462000,Powiat m. Grudziądz,2016,13.0
+0462000,Powiat m. Grudziądz,2017,10.6
+0462000,Powiat m. Grudziądz,2018,9.2
+0462000,Powiat m. Grudziądz,2019,8.4
+0462000,Powiat m. Grudziądz,2020,11.7
+0462000,Powiat m. Grudziądz,2021,11.5
+0462000,Powiat m. Grudziądz,2022,10.0
+0462000,Powiat m. Grudziądz,2023,9.2
+0462000,Powiat m. Grudziądz,2024,9.8
+0463000,Powiat m. Toruń,2013,10.4
+0463000,Powiat m. Toruń,2014,8.1
+0463000,Powiat m. Toruń,2015,6.9
+0463000,Powiat m. Toruń,2016,6.1
+0463000,Powiat m. Toruń,2017,5.2
+0463000,Powiat m. Toruń,2018,4.7
+0463000,Powiat m. Toruń,2019,4.1
+0463000,Powiat m. Toruń,2020,4.7
+0463000,Powiat m. Toruń,2021,4.0
+0463000,Powiat m. Toruń,2022,3.6
+0463000,Powiat m. Toruń,2023,3.1
+0463000,Powiat m. Toruń,2024,3.2
+0464000,Powiat m. Włocławek,2013,20.3
+0464000,Powiat m. Włocławek,2014,18.9
+0464000,Powiat m. Włocławek,2015,16.9
+0464000,Powiat m. Włocławek,2016,16.4
+0464000,Powiat m. Włocławek,2017,12.8
+0464000,Powiat m. Włocławek,2018,10.7
+0464000,Powiat m. Włocławek,2019,9.3
+0464000,Powiat m. Włocławek,2020,10.9
+0464000,Powiat m. Włocławek,2021,8.7
+0464000,Powiat m. Włocławek,2022,8.4
+0464000,Powiat m. Włocławek,2023,8.2
+0464000,Powiat m. Włocławek,2024,8.7
+0600000,LUBELSKIE,2013,14.4
+0600000,LUBELSKIE,2014,12.6
+0600000,LUBELSKIE,2015,11.7
+0600000,LUBELSKIE,2016,10.3
+0600000,LUBELSKIE,2017,8.8
+0600000,LUBELSKIE,2018,8.0
+0600000,LUBELSKIE,2019,7.5
+0600000,LUBELSKIE,2020,8.2
+0600000,LUBELSKIE,2021,8.7
+0600000,LUBELSKIE,2022,8.0
+0600000,LUBELSKIE,2023,7.6
+0600000,LUBELSKIE,2024,7.4
+0601000,Powiat bialski,2013,15.8
+0601000,Powiat bialski,2014,14.6
+0601000,Powiat bialski,2015,12.9
+0601000,Powiat bialski,2016,12.2
+0601000,Powiat bialski,2017,10.2
+0601000,Powiat bialski,2018,9.9
+0601000,Powiat bialski,2019,9.3
+0601000,Powiat bialski,2020,10.3
+0601000,Powiat bialski,2021,11.1
+0601000,Powiat bialski,2022,9.6
+0601000,Powiat bialski,2023,8.7
+0601000,Powiat bialski,2024,9.1
+0602000,Powiat biłgorajski,2013,9.4
+0602000,Powiat biłgorajski,2014,8.3
+0602000,Powiat biłgorajski,2015,8.0
+0602000,Powiat biłgorajski,2016,6.5
+0602000,Powiat biłgorajski,2017,5.7
+0602000,Powiat biłgorajski,2018,5.0
+0602000,Powiat biłgorajski,2019,5.0
+0602000,Powiat biłgorajski,2020,5.3
+0602000,Powiat biłgorajski,2021,6.5
+0602000,Powiat biłgorajski,2022,5.9
+0602000,Powiat biłgorajski,2023,6.1
+0602000,Powiat biłgorajski,2024,5.9
+0603000,Powiat chełmski,2013,20.3
+0603000,Powiat chełmski,2014,18.0
+0603000,Powiat chełmski,2015,16.9
+0603000,Powiat chełmski,2016,15.7
+0603000,Powiat chełmski,2017,14.0
+0603000,Powiat chełmski,2018,13.3
+0603000,Powiat chełmski,2019,11.9
+0603000,Powiat chełmski,2020,12.9
+0603000,Powiat chełmski,2021,17.5
+0603000,Powiat chełmski,2022,13.8
+0603000,Powiat chełmski,2023,12.3
+0603000,Powiat chełmski,2024,12.4
+0604000,Powiat hrubieszowski,2013,20.3
+0604000,Powiat hrubieszowski,2014,18.3
+0604000,Powiat hrubieszowski,2015,17.7
+0604000,Powiat hrubieszowski,2016,16.1
+0604000,Powiat hrubieszowski,2017,14.3
+0604000,Powiat hrubieszowski,2018,13.1
+0604000,Powiat hrubieszowski,2019,13.3
+0604000,Powiat hrubieszowski,2020,12.9
+0604000,Powiat hrubieszowski,2021,18.1
+0604000,Powiat hrubieszowski,2022,15.1
+0604000,Powiat hrubieszowski,2023,15.3
+0604000,Powiat hrubieszowski,2024,15.3
+0605000,Powiat janowski,2013,15.3
+0605000,Powiat janowski,2014,13.1
+0605000,Powiat janowski,2015,12.2
+0605000,Powiat janowski,2016,11.2
+0605000,Powiat janowski,2017,8.4
+0605000,Powiat janowski,2018,8.5
+0605000,Powiat janowski,2019,8.5
+0605000,Powiat janowski,2020,9.2
+0605000,Powiat janowski,2021,13.8
+0605000,Powiat janowski,2022,12.3
+0605000,Powiat janowski,2023,11.8
+0605000,Powiat janowski,2024,11.3
+0606000,Powiat krasnostawski,2013,17.0
+0606000,Powiat krasnostawski,2014,15.5
+0606000,Powiat krasnostawski,2015,15.1
+0606000,Powiat krasnostawski,2016,13.7
+0606000,Powiat krasnostawski,2017,12.7
+0606000,Powiat krasnostawski,2018,11.5
+0606000,Powiat krasnostawski,2019,11.0
+0606000,Powiat krasnostawski,2020,11.7
+0606000,Powiat krasnostawski,2021,15.8
+0606000,Powiat krasnostawski,2022,14.3
+0606000,Powiat krasnostawski,2023,14.0
+0606000,Powiat krasnostawski,2024,13.4
+0607000,Powiat kraśnicki,2013,16.0
+0607000,Powiat kraśnicki,2014,14.0
+0607000,Powiat kraśnicki,2015,13.0
+0607000,Powiat kraśnicki,2016,13.3
+0607000,Powiat kraśnicki,2017,11.1
+0607000,Powiat kraśnicki,2018,10.2
+0607000,Powiat kraśnicki,2019,10.2
+0607000,Powiat kraśnicki,2020,10.9
+0607000,Powiat kraśnicki,2021,11.5
+0607000,Powiat kraśnicki,2022,11.2
+0607000,Powiat kraśnicki,2023,11.2
+0607000,Powiat kraśnicki,2024,10.4
+0608000,Powiat lubartowski,2013,17.5
+0608000,Powiat lubartowski,2014,16.0
+0608000,Powiat lubartowski,2015,14.1
+0608000,Powiat lubartowski,2016,13.0
+0608000,Powiat lubartowski,2017,11.9
+0608000,Powiat lubartowski,2018,10.7
+0608000,Powiat lubartowski,2019,10.3
+0608000,Powiat lubartowski,2020,11.3
+0608000,Powiat lubartowski,2021,13.8
+0608000,Powiat lubartowski,2022,12.0
+0608000,Powiat lubartowski,2023,11.9
+0608000,Powiat lubartowski,2024,11.5
+0609000,Powiat lubelski,2013,12.9
+0609000,Powiat lubelski,2014,11.0
+0609000,Powiat lubelski,2015,10.0
+0609000,Powiat lubelski,2016,8.5
+0609000,Powiat lubelski,2017,7.3
+0609000,Powiat lubelski,2018,6.3
+0609000,Powiat lubelski,2019,5.6
+0609000,Powiat lubelski,2020,5.8
+0609000,Powiat lubelski,2021,5.9
+0609000,Powiat lubelski,2022,5.6
+0609000,Powiat lubelski,2023,5.7
+0609000,Powiat lubelski,2024,5.5
+0610000,Powiat łęczyński,2013,10.3
+0610000,Powiat łęczyński,2014,8.5
+0610000,Powiat łęczyński,2015,8.3
+0610000,Powiat łęczyński,2016,6.9
+0610000,Powiat łęczyński,2017,5.8
+0610000,Powiat łęczyński,2018,5.4
+0610000,Powiat łęczyński,2019,5.2
+0610000,Powiat łęczyński,2020,5.7
+0610000,Powiat łęczyński,2021,6.3
+0610000,Powiat łęczyński,2022,5.7
+0610000,Powiat łęczyński,2023,5.4
+0610000,Powiat łęczyński,2024,5.3
+0611000,Powiat łukowski,2013,12.9
+0611000,Powiat łukowski,2014,10.7
+0611000,Powiat łukowski,2015,8.9
+0611000,Powiat łukowski,2016,6.5
+0611000,Powiat łukowski,2017,5.0
+0611000,Powiat łukowski,2018,4.4
+0611000,Powiat łukowski,2019,4.2
+0611000,Powiat łukowski,2020,4.6
+0611000,Powiat łukowski,2021,4.3
+0611000,Powiat łukowski,2022,4.2
+0611000,Powiat łukowski,2023,3.9
+0611000,Powiat łukowski,2024,4.0
+0612000,Powiat opolski,2013,16.0
+0612000,Powiat opolski,2014,14.0
+0612000,Powiat opolski,2015,13.0
+0612000,Powiat opolski,2016,11.7
+0612000,Powiat opolski,2017,9.1
+0612000,Powiat opolski,2018,9.2
+0612000,Powiat opolski,2019,8.2
+0612000,Powiat opolski,2020,9.3
+0612000,Powiat opolski,2021,9.1
+0612000,Powiat opolski,2022,9.4
+0612000,Powiat opolski,2023,9.3
+0612000,Powiat opolski,2024,9.5
+0613000,Powiat parczewski,2013,15.3
+0613000,Powiat parczewski,2014,13.1
+0613000,Powiat parczewski,2015,12.2
+0613000,Powiat parczewski,2016,10.0
+0613000,Powiat parczewski,2017,8.2
+0613000,Powiat parczewski,2018,7.2
+0613000,Powiat parczewski,2019,6.6
+0613000,Powiat parczewski,2020,7.2
+0613000,Powiat parczewski,2021,8.5
+0613000,Powiat parczewski,2022,8.2
+0613000,Powiat parczewski,2023,8.0
+0613000,Powiat parczewski,2024,8.1
+0614000,Powiat puławski,2013,11.7
+0614000,Powiat puławski,2014,10.1
+0614000,Powiat puławski,2015,8.9
+0614000,Powiat puławski,2016,7.6
+0614000,Powiat puławski,2017,5.9
+0614000,Powiat puławski,2018,6.3
+0614000,Powiat puławski,2019,5.1
+0614000,Powiat puławski,2020,6.6
+0614000,Powiat puławski,2021,6.6
+0614000,Powiat puławski,2022,5.7
+0614000,Powiat puławski,2023,5.9
+0614000,Powiat puławski,2024,5.7
+0615000,Powiat radzyński,2013,15.3
+0615000,Powiat radzyński,2014,13.8
+0615000,Powiat radzyński,2015,12.8
+0615000,Powiat radzyński,2016,10.5
+0615000,Powiat radzyński,2017,8.1
+0615000,Powiat radzyński,2018,7.0
+0615000,Powiat radzyński,2019,5.8
+0615000,Powiat radzyński,2020,6.8
+0615000,Powiat radzyński,2021,8.2
+0615000,Powiat radzyński,2022,7.9
+0615000,Powiat radzyński,2023,7.6
+0615000,Powiat radzyński,2024,7.0
+0616000,Powiat rycki,2013,15.5
+0616000,Powiat rycki,2014,14.1
+0616000,Powiat rycki,2015,12.5
+0616000,Powiat rycki,2016,11.3
+0616000,Powiat rycki,2017,9.4
+0616000,Powiat rycki,2018,7.9
+0616000,Powiat rycki,2019,7.0
+0616000,Powiat rycki,2020,7.6
+0616000,Powiat rycki,2021,7.9
+0616000,Powiat rycki,2022,7.2
+0616000,Powiat rycki,2023,6.8
+0616000,Powiat rycki,2024,6.7
+0617000,Powiat świdnicki,2013,16.1
+0617000,Powiat świdnicki,2014,14.6
+0617000,Powiat świdnicki,2015,14.3
+0617000,Powiat świdnicki,2016,12.5
+0617000,Powiat świdnicki,2017,10.2
+0617000,Powiat świdnicki,2018,9.2
+0617000,Powiat świdnicki,2019,8.3
+0617000,Powiat świdnicki,2020,9.3
+0617000,Powiat świdnicki,2021,9.7
+0617000,Powiat świdnicki,2022,8.0
+0617000,Powiat świdnicki,2023,7.1
+0617000,Powiat świdnicki,2024,7.2
+0618000,Powiat tomaszowski,2013,15.8
+0618000,Powiat tomaszowski,2014,13.1
+0618000,Powiat tomaszowski,2015,12.5
+0618000,Powiat tomaszowski,2016,9.9
+0618000,Powiat tomaszowski,2017,8.1
+0618000,Powiat tomaszowski,2018,6.8
+0618000,Powiat tomaszowski,2019,6.9
+0618000,Powiat tomaszowski,2020,8.0
+0618000,Powiat tomaszowski,2021,9.9
+0618000,Powiat tomaszowski,2022,9.1
+0618000,Powiat tomaszowski,2023,9.6
+0618000,Powiat tomaszowski,2024,8.8
+0619000,Powiat włodawski,2013,25.0
+0619000,Powiat włodawski,2014,23.1
+0619000,Powiat włodawski,2015,20.8
+0619000,Powiat włodawski,2016,19.2
+0619000,Powiat włodawski,2017,16.5
+0619000,Powiat włodawski,2018,15.3
+0619000,Powiat włodawski,2019,15.7
+0619000,Powiat włodawski,2020,16.0
+0619000,Powiat włodawski,2021,17.6
+0619000,Powiat włodawski,2022,15.6
+0619000,Powiat włodawski,2023,15.6
+0619000,Powiat włodawski,2024,15.1
+0620000,Powiat zamojski,2013,16.2
+0620000,Powiat zamojski,2014,14.5
+0620000,Powiat zamojski,2015,13.9
+0620000,Powiat zamojski,2016,12.1
+0620000,Powiat zamojski,2017,10.6
+0620000,Powiat zamojski,2018,9.1
+0620000,Powiat zamojski,2019,8.3
+0620000,Powiat zamojski,2020,9.4
+0620000,Powiat zamojski,2021,12.9
+0620000,Powiat zamojski,2022,10.7
+0620000,Powiat zamojski,2023,10.6
+0620000,Powiat zamojski,2024,10.6
+0661000,Powiat m. Biała Podlaska,2013,16.4
+0661000,Powiat m. Biała Podlaska,2014,15.0
+0661000,Powiat m. Biała Podlaska,2015,13.7
+0661000,Powiat m. Biała Podlaska,2016,12.7
+0661000,Powiat m. Biała Podlaska,2017,11.2
+0661000,Powiat m. Biała Podlaska,2018,10.3
+0661000,Powiat m. Biała Podlaska,2019,9.9
+0661000,Powiat m. Biała Podlaska,2020,10.8
+0661000,Powiat m. Biała Podlaska,2021,9.1
+0661000,Powiat m. Biała Podlaska,2022,7.8
+0661000,Powiat m. Biała Podlaska,2023,7.0
+0661000,Powiat m. Biała Podlaska,2024,7.1
+0662000,Powiat m. Chełm,2013,18.3
+0662000,Powiat m. Chełm,2014,15.8
+0662000,Powiat m. Chełm,2015,14.7
+0662000,Powiat m. Chełm,2016,13.1
+0662000,Powiat m. Chełm,2017,12.2
+0662000,Powiat m. Chełm,2018,11.2
+0662000,Powiat m. Chełm,2019,11.0
+0662000,Powiat m. Chełm,2020,12.0
+0662000,Powiat m. Chełm,2021,10.2
+0662000,Powiat m. Chełm,2022,9.4
+0662000,Powiat m. Chełm,2023,8.3
+0662000,Powiat m. Chełm,2024,8.3
+0663000,Powiat m. Lublin,2013,10.0
+0663000,Powiat m. Lublin,2014,8.6
+0663000,Powiat m. Lublin,2015,7.9
+0663000,Powiat m. Lublin,2016,7.2
+0663000,Powiat m. Lublin,2017,6.2
+0663000,Powiat m. Lublin,2018,5.5
+0663000,Powiat m. Lublin,2019,5.0
+0663000,Powiat m. Lublin,2020,5.6
+0663000,Powiat m. Lublin,2021,5.2
+0663000,Powiat m. Lublin,2022,5.1
+0663000,Powiat m. Lublin,2023,4.2
+0663000,Powiat m. Lublin,2024,4.1
+0664000,Powiat m. Zamość,2013,16.5
+0664000,Powiat m. Zamość,2014,14.8
+0664000,Powiat m. Zamość,2015,14.0
+0664000,Powiat m. Zamość,2016,12.3
+0664000,Powiat m. Zamość,2017,11.0
+0664000,Powiat m. Zamość,2018,10.0
+0664000,Powiat m. Zamość,2019,8.7
+0664000,Powiat m. Zamość,2020,10.0
+0664000,Powiat m. Zamość,2021,8.9
+0664000,Powiat m. Zamość,2022,8.1
+0664000,Powiat m. Zamość,2023,7.9
+0664000,Powiat m. Zamość,2024,8.0
+0800000,LUBUSKIE,2013,15.7
+0800000,LUBUSKIE,2014,12.5
+0800000,LUBUSKIE,2015,10.5
+0800000,LUBUSKIE,2016,8.6
+0800000,LUBUSKIE,2017,6.5
+0800000,LUBUSKIE,2018,5.8
+0800000,LUBUSKIE,2019,4.9
+0800000,LUBUSKIE,2020,6.3
+0800000,LUBUSKIE,2021,5.1
+0800000,LUBUSKIE,2022,4.4
+0800000,LUBUSKIE,2023,4.3
+0800000,LUBUSKIE,2024,4.5
+0801000,Powiat gorzowski,2013,12.9
+0801000,Powiat gorzowski,2014,8.8
+0801000,Powiat gorzowski,2015,8.1
+0801000,Powiat gorzowski,2016,6.9
+0801000,Powiat gorzowski,2017,4.8
+0801000,Powiat gorzowski,2018,4.3
+0801000,Powiat gorzowski,2019,3.5
+0801000,Powiat gorzowski,2020,5.3
+0801000,Powiat gorzowski,2021,4.1
+0801000,Powiat gorzowski,2022,3.0
+0801000,Powiat gorzowski,2023,3.3
+0801000,Powiat gorzowski,2024,3.6
+0802000,Powiat krośnieński,2013,24.1
+0802000,Powiat krośnieński,2014,18.6
+0802000,Powiat krośnieński,2015,17.0
+0802000,Powiat krośnieński,2016,14.3
+0802000,Powiat krośnieński,2017,11.3
+0802000,Powiat krośnieński,2018,9.3
+0802000,Powiat krośnieński,2019,7.8
+0802000,Powiat krośnieński,2020,9.3
+0802000,Powiat krośnieński,2021,7.9
+0802000,Powiat krośnieński,2022,6.2
+0802000,Powiat krośnieński,2023,6.2
+0802000,Powiat krośnieński,2024,5.7
+0803000,Powiat międzyrzecki,2013,23.6
+0803000,Powiat międzyrzecki,2014,18.6
+0803000,Powiat międzyrzecki,2015,15.9
+0803000,Powiat międzyrzecki,2016,15.0
+0803000,Powiat międzyrzecki,2017,13.4
+0803000,Powiat międzyrzecki,2018,12.0
+0803000,Powiat międzyrzecki,2019,9.4
+0803000,Powiat międzyrzecki,2020,10.1
+0803000,Powiat międzyrzecki,2021,7.6
+0803000,Powiat międzyrzecki,2022,7.3
+0803000,Powiat międzyrzecki,2023,7.1
+0803000,Powiat międzyrzecki,2024,7.3
+0804000,Powiat nowosolski,2013,25.5
+0804000,Powiat nowosolski,2014,20.7
+0804000,Powiat nowosolski,2015,17.9
+0804000,Powiat nowosolski,2016,14.2
+0804000,Powiat nowosolski,2017,10.5
+0804000,Powiat nowosolski,2018,8.5
+0804000,Powiat nowosolski,2019,6.2
+0804000,Powiat nowosolski,2020,7.1
+0804000,Powiat nowosolski,2021,5.2
+0804000,Powiat nowosolski,2022,5.1
+0804000,Powiat nowosolski,2023,5.5
+0804000,Powiat nowosolski,2024,6.0
+0805000,Powiat słubicki,2013,13.1
+0805000,Powiat słubicki,2014,7.9
+0805000,Powiat słubicki,2015,6.3
+0805000,Powiat słubicki,2016,4.2
+0805000,Powiat słubicki,2017,3.1
+0805000,Powiat słubicki,2018,2.5
+0805000,Powiat słubicki,2019,2.4
+0805000,Powiat słubicki,2020,3.7
+0805000,Powiat słubicki,2021,2.5
+0805000,Powiat słubicki,2022,2.3
+0805000,Powiat słubicki,2023,2.2
+0805000,Powiat słubicki,2024,2.3
+0806000,Powiat strzelecko-drezdenecki,2013,25.5
+0806000,Powiat strzelecko-drezdenecki,2014,20.1
+0806000,Powiat strzelecko-drezdenecki,2015,17.6
+0806000,Powiat strzelecko-drezdenecki,2016,14.9
+0806000,Powiat strzelecko-drezdenecki,2017,11.5
+0806000,Powiat strzelecko-drezdenecki,2018,11.0
+0806000,Powiat strzelecko-drezdenecki,2019,9.8
+0806000,Powiat strzelecko-drezdenecki,2020,10.4
+0806000,Powiat strzelecko-drezdenecki,2021,10.4
+0806000,Powiat strzelecko-drezdenecki,2022,9.1
+0806000,Powiat strzelecko-drezdenecki,2023,9.0
+0806000,Powiat strzelecko-drezdenecki,2024,10.0
+0807000,Powiat sulęciński,2013,15.3
+0807000,Powiat sulęciński,2014,13.6
+0807000,Powiat sulęciński,2015,11.7
+0807000,Powiat sulęciński,2016,9.7
+0807000,Powiat sulęciński,2017,6.8
+0807000,Powiat sulęciński,2018,6.4
+0807000,Powiat sulęciński,2019,5.7
+0807000,Powiat sulęciński,2020,6.7
+0807000,Powiat sulęciński,2021,4.7
+0807000,Powiat sulęciński,2022,4.5
+0807000,Powiat sulęciński,2023,4.4
+0807000,Powiat sulęciński,2024,4.4
+0808000,Powiat świebodziński,2013,13.5
+0808000,Powiat świebodziński,2014,10.2
+0808000,Powiat świebodziński,2015,9.0
+0808000,Powiat świebodziński,2016,7.6
+0808000,Powiat świebodziński,2017,5.2
+0808000,Powiat świebodziński,2018,4.4
+0808000,Powiat świebodziński,2019,3.5
+0808000,Powiat świebodziński,2020,5.5
+0808000,Powiat świebodziński,2021,3.2
+0808000,Powiat świebodziński,2022,2.7
+0808000,Powiat świebodziński,2023,2.5
+0808000,Powiat świebodziński,2024,2.2
+0809000,Powiat zielonogórski,2013,15.2
+0809000,Powiat zielonogórski,2014,13.5
+0809000,Powiat zielonogórski,2015,11.1
+0809000,Powiat zielonogórski,2016,9.0
+0809000,Powiat zielonogórski,2017,6.9
+0809000,Powiat zielonogórski,2018,6.7
+0809000,Powiat zielonogórski,2019,5.9
+0809000,Powiat zielonogórski,2020,8.2
+0809000,Powiat zielonogórski,2021,8.6
+0809000,Powiat zielonogórski,2022,7.4
+0809000,Powiat zielonogórski,2023,6.6
+0809000,Powiat zielonogórski,2024,6.7
+0810000,Powiat żagański,2013,25.7
+0810000,Powiat żagański,2014,22.2
+0810000,Powiat żagański,2015,17.9
+0810000,Powiat żagański,2016,14.4
+0810000,Powiat żagański,2017,11.3
+0810000,Powiat żagański,2018,9.4
+0810000,Powiat żagański,2019,8.8
+0810000,Powiat żagański,2020,9.0
+0810000,Powiat żagański,2021,7.1
+0810000,Powiat żagański,2022,6.2
+0810000,Powiat żagański,2023,5.2
+0810000,Powiat żagański,2024,5.3
+0811000,Powiat żarski,2013,16.5
+0811000,Powiat żarski,2014,12.9
+0811000,Powiat żarski,2015,9.7
+0811000,Powiat żarski,2016,8.2
+0811000,Powiat żarski,2017,6.4
+0811000,Powiat żarski,2018,6.0
+0811000,Powiat żarski,2019,5.3
+0811000,Powiat żarski,2020,6.8
+0811000,Powiat żarski,2021,5.9
+0811000,Powiat żarski,2022,5.2
+0811000,Powiat żarski,2023,5.0
+0811000,Powiat żarski,2024,5.3
+0812000,Powiat wschowski,2013,16.3
+0812000,Powiat wschowski,2014,13.3
+0812000,Powiat wschowski,2015,12.1
+0812000,Powiat wschowski,2016,11.1
+0812000,Powiat wschowski,2017,9.1
+0812000,Powiat wschowski,2018,8.5
+0812000,Powiat wschowski,2019,7.8
+0812000,Powiat wschowski,2020,9.0
+0812000,Powiat wschowski,2021,8.5
+0812000,Powiat wschowski,2022,7.4
+0812000,Powiat wschowski,2023,7.5
+0812000,Powiat wschowski,2024,7.5
+0861000,Powiat m. Gorzów Wielkopolski,2013,8.5
+0861000,Powiat m. Gorzów Wielkopolski,2014,5.9
+0861000,Powiat m. Gorzów Wielkopolski,2015,5.1
+0861000,Powiat m. Gorzów Wielkopolski,2016,3.9
+0861000,Powiat m. Gorzów Wielkopolski,2017,2.7
+0861000,Powiat m. Gorzów Wielkopolski,2018,2.6
+0861000,Powiat m. Gorzów Wielkopolski,2019,2.3
+0861000,Powiat m. Gorzów Wielkopolski,2020,4.0
+0861000,Powiat m. Gorzów Wielkopolski,2021,2.6
+0861000,Powiat m. Gorzów Wielkopolski,2022,2.3
+0861000,Powiat m. Gorzów Wielkopolski,2023,2.2
+0861000,Powiat m. Gorzów Wielkopolski,2024,2.4
+0862000,Powiat m. Zielona Góra,2013,7.8
+0862000,Powiat m. Zielona Góra,2014,7.3
+0862000,Powiat m. Zielona Góra,2015,6.3
+0862000,Powiat m. Zielona Góra,2016,4.6
+0862000,Powiat m. Zielona Góra,2017,3.4
+0862000,Powiat m. Zielona Góra,2018,3.3
+0862000,Powiat m. Zielona Góra,2019,2.4
+0862000,Powiat m. Zielona Góra,2020,4.0
+0862000,Powiat m. Zielona Góra,2021,3.5
+0862000,Powiat m. Zielona Góra,2022,2.6
+0862000,Powiat m. Zielona Góra,2023,2.9
+0862000,Powiat m. Zielona Góra,2024,3.0
 1000000,ŁÓDZKIE,2013,14.1
 1000000,ŁÓDZKIE,2014,11.8
 1000000,ŁÓDZKIE,2015,10.3

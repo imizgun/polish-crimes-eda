@@ -8,6 +8,10 @@ Skrypt integracji wszystkich danych:
 
 import pandas as pd
 import numpy as np
+from pathlib import Path
+
+# Ścieżka do katalogu głównego projektu
+PROJECT_ROOT = Path(__file__).parent.parent
 
 
 def create_integrated_dataset(
@@ -30,20 +34,20 @@ def create_integrated_dataset(
     Returns:
         DataFrame z zintegrowanymi danymi
     """
-    # 1. Wczytaj dane o przestępczości
-    df_crime = pd.read_csv(crime_path)
-    
+    # 1. Wczytaj dane o przestępczości - KODY JAKO STRING!
+    df_crime = pd.read_csv(crime_path, dtype={'region_code': str})
+
     # Zmień nazwę kolumny region_code na powiat_code
     df_crime = df_crime.rename(columns={
         'region_code': 'powiat_code',
         'region_name': 'powiat_name'
     })
-    
-    # 2. Wczytaj dane demograficzne
-    df_density = pd.read_csv(population_density_path)
-    df_gender = pd.read_csv(population_gender_path)
-    df_age = pd.read_csv(population_age_path)
-    df_changes = pd.read_csv(population_changes_path)
+
+    # 2. Wczytaj dane demograficzne - KODY JAKO STRING!
+    df_density = pd.read_csv(population_density_path, dtype={'powiat_code': str})
+    df_gender = pd.read_csv(population_gender_path, dtype={'powiat_code': str})
+    df_age = pd.read_csv(population_age_path, dtype={'powiat_code': str})
+    df_changes = pd.read_csv(population_changes_path, dtype={'powiat_code': str})
     
     # 3. Połącz wszystko
     df = df_crime.copy()
@@ -165,11 +169,11 @@ def validate_integration(df: pd.DataFrame) -> dict:
 print("Tworzenie zintegrowanego datasetu...")
 
 # Ścieżki do plików
-crime_path = './output/crime/crime_total_powiaty.csv'
-population_density_path = './output/population/population_with_density.csv'
-population_gender_path = './output/population/population_gender.csv'
-population_age_path = './output/population/population_age_groups.csv'
-population_changes_path = './output/population/population_with_changes.csv'
+crime_path = PROJECT_ROOT / 'output' / 'crime' / 'crime_total_powiaty.csv'
+population_density_path = PROJECT_ROOT / 'output' / 'population' / 'population_with_density.csv'
+population_gender_path = PROJECT_ROOT / 'output' / 'population' / 'population_gender.csv'
+population_age_path = PROJECT_ROOT / 'output' / 'population' / 'population_age_groups.csv'
+population_changes_path = PROJECT_ROOT / 'output' / 'population' / 'population_with_changes.csv'
 
 # Utwórz zintegrowany dataset
 df = create_integrated_dataset(
@@ -222,10 +226,10 @@ print(bottom10)
 # Zapisz do plików
 print("\n" + "="*80)
 print("Zapisywanie do plików...")
-df_with_stats.to_csv('./output/integrated_crime_data.csv', index=False)
+df_with_stats.to_csv(PROJECT_ROOT / 'output' / 'integrated_crime_data.csv', index=False)
 
 # Dodatkowo: tylko 2024 rok (dla szybkich analiz)
-df_2024.to_csv('./output/integrated_crime_data_2024.csv', index=False)
+df_2024.to_csv(PROJECT_ROOT / 'output' / 'integrated_crime_data_2024.csv', index=False)
 
 print("\n✓ Gotowe!")
 print("\nUzyskane pliki:")

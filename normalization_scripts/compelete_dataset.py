@@ -9,6 +9,10 @@ FINALNA INTEGRACJA WSZYSTKICH DANYCH
 
 import pandas as pd
 import numpy as np
+from pathlib import Path
+
+# Ścieżka do katalogu głównego projektu
+PROJECT_ROOT = Path(__file__).parent.parent
 
 
 def create_complete_dataset() -> pd.DataFrame:
@@ -19,13 +23,13 @@ def create_complete_dataset() -> pd.DataFrame:
         DataFrame z pełnymi danymi
     """
     print("Wczytywanie danych...")
-    
-    # 1. Załaduj poprzedni zintegrowany dataset (przestępstwa + demografia)
-    df_base = pd.read_csv('./output/integrated_crime_data.csv')
+
+    # 1. Załaduj poprzedni zintegrowany dataset (przestępstwa + demografia) - KODY JAKO STRING!
+    df_base = pd.read_csv(PROJECT_ROOT / 'output' / 'integrated_crime_data.csv', dtype={'powiat_code': str})
     print(f"  Dataset bazowy: {df_base.shape}")
-    
-    # 2. Załaduj dane społeczno-ekonomiczne
-    df_socio = pd.read_csv('./output/socio/economic_powiaty.csv')
+
+    # 2. Załaduj dane społeczno-ekonomiczne - KODY JAKO STRING!
+    df_socio = pd.read_csv(PROJECT_ROOT / 'output' / 'socio' / 'economic_powiaty.csv', dtype={'powiat_code': str})
     print(f"  Dane społeczno-ekonomiczne: {df_socio.shape}")
     
     # 3. Połącz
@@ -180,12 +184,12 @@ print("ZAPISYWANIE PLIKÓW")
 print("="*80)
 
 # Pełny dataset
-df_enhanced.to_csv('./output/complete_dataset.csv', index=False)
+df_enhanced.to_csv(PROJECT_ROOT / 'output' / 'complete_dataset.csv', index=False)
 print("  ✓ complete_dataset.csv")
 
 # Tylko 2024 rok
 df_2024 = df_enhanced[df_enhanced['year'] == 2024]
-df_2024.to_csv('./output//complete_dataset_2024.csv', index=False)
+df_2024.to_csv(PROJECT_ROOT / 'output' / 'complete_dataset_2024.csv', index=False)
 print("  ✓ complete_dataset_2024.csv")
 
 # Dataset dla modelu ML (bez braków)
@@ -193,7 +197,7 @@ df_ml = df_enhanced.dropna(subset=[
     'crime_rate_per_100k', 'population_density', 'youth_ratio',
     'unemployment_rate', 'wage_index', 'gender_ratio', 'population_change_pct'
 ])
-df_ml.to_csv('./output//ml_ready_dataset.csv', index=False)
+df_ml.to_csv(PROJECT_ROOT / 'output' / 'ml_ready_dataset.csv', index=False)
 print(f"  ✓ ml_ready_dataset.csv ({len(df_ml)} wierszy - bez braków)")
 
 # 7. Analiza kategorii

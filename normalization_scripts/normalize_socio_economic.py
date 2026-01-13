@@ -7,6 +7,10 @@ Skrypt do normalizacji danych społeczno-ekonomicznych z GUS:
 import pandas as pd
 import numpy as np
 from typing import Tuple
+from pathlib import Path
+
+# Ścieżka do katalogu głównego projektu
+PROJECT_ROOT = Path(__file__).parent.parent
 
 
 def load_unemployment_data(file_path: str) -> pd.DataFrame:
@@ -21,9 +25,9 @@ def load_unemployment_data(file_path: str) -> pd.DataFrame:
     """
     # Wczytaj header (2 wiersze)
     df_header = pd.read_excel(file_path, sheet_name='TABLICA', nrows=2, header=None)
-    
-    # Wczytaj dane (od 3 wiersza)
-    df_data = pd.read_excel(file_path, sheet_name='TABLICA', skiprows=2)
+
+    # Wczytaj dane (od 3 wiersza) - KOD JAKO STRING!
+    df_data = pd.read_excel(file_path, sheet_name='TABLICA', skiprows=2, dtype={0: str})
     
     # Przygotuj nazwy kolumn
     # Lata są w wierszu 1 (indeks 1), kolumny 2-13
@@ -42,18 +46,18 @@ def load_unemployment_data(file_path: str) -> pd.DataFrame:
 def load_wages_data(file_path: str) -> pd.DataFrame:
     """
     Wczytuje dane o wynagrodzeniach (% średniej krajowej)
-    
+
     Args:
         file_path: ścieżka do pliku Excel
-    
+
     Returns:
         DataFrame z danymi w wide format
     """
     # Wczytaj header (2 wiersze)
     df_header = pd.read_excel(file_path, sheet_name='TABLICA', nrows=2, header=None)
-    
-    # Wczytaj dane (od 3 wiersza)
-    df_data = pd.read_excel(file_path, sheet_name='TABLICA', skiprows=2)
+
+    # Wczytaj dane (od 3 wiersza) - KOD JAKO STRING!
+    df_data = pd.read_excel(file_path, sheet_name='TABLICA', skiprows=2, dtype={0: str})
     
     # Przygotuj nazwy kolumn
     new_columns = ['region_code', 'region_name']
@@ -99,7 +103,7 @@ def convert_to_long_format(df_wide: pd.DataFrame, value_name: str) -> pd.DataFra
     df_long = df_long.drop('year_col', axis=1)
     
     # Konwersja typów
-    df_long['region_code'] = pd.to_numeric(df_long['region_code'], errors='coerce')
+    # region_code pozostaje jako string (zachowuje początkowe zera)
     df_long[value_name] = pd.to_numeric(df_long[value_name], errors='coerce')
     
     # Zmień kolejność kolumn
@@ -114,14 +118,18 @@ def convert_to_long_format(df_wide: pd.DataFrame, value_name: str) -> pd.DataFra
 def filter_powiaty_only(df_long: pd.DataFrame) -> pd.DataFrame:
     """
     Filtruje dane - zostawia tylko powiaty (bez POLSKA i województw)
-    
+
     Args:
         df_long: DataFrame w long format
-    
+
     Returns:
-        DataFrame tylko z powiatami (region_code >= 200000)
+        DataFrame tylko z powiatami (region_code >= 0200000)
     """
-    df_powiaty = df_long[df_long['region_code'] >= 200000].copy()
+    # Filtruj: wykluczamy POLSKA ('0000000') ale zachowujemy województwa i powiaty
+    df_powiaty = df_long[
+        (df_long['region_code'] != '0000000') &
+        (df_long['region_code'].notna())
+    ].copy()
     
     # Zmień nazwę kolumny
     df_powiaty = df_powiaty.rename(columns={'region_code': 'powiat_code', 'region_name': 'powiat_name'})
@@ -196,7 +204,7 @@ print("-"*80)
 
 # Wczytaj
 print("Wczytywanie danych o bezrobociu...")
-df_unemp_wide = load_unemployment_data('./data/stopa_bezrobocia_2013-2024.xlsx')
+df_unemp_wide = load_unemployment_data(PROJECT_ROOT / 'data' / 'stopa_bezrobocia_2013-2024.xlsx')
 print(f"Rozmiar (wide format): {df_unemp_wide.shape}")
 
 # Konwertuj do long format
@@ -218,8 +226,8 @@ df_unemp_powiaty = filter_powiaty_only(df_unemp_long)
 print(f"Liczba powiatów: {df_unemp_powiaty['powiat_code'].nunique()}")
 
 # Zapisz
-df_unemp_long.to_csv('./output/socio/unemployment_all_regions.csv', index=False)
-df_unemp_powiaty.to_csv('./output/socio/unemployment_powiaty.csv', index=False)
+df_unemp_long.to_csv(PROJECT_ROOT / 'output' / 'socio' / 'unemployment_all_regions.csv', index=False)
+df_unemp_powiaty.to_csv(PROJECT_ROOT / 'output' / 'socio' / 'unemployment_powiaty.csv', index=False)
 
 # ========================================================================
 # 2. WYNAGRODZENIA
@@ -231,7 +239,7 @@ print("-"*80)
 
 # Wczytaj
 print("Wczytywanie danych o wynagrodzeniach...")
-df_wages_wide = load_wages_data('./data/wynagrodzenie_2013-2024.xlsx')
+df_wages_wide = load_wages_data(PROJECT_ROOT / 'data' / 'wynagrodzenie_2013-2024.xlsx')
 print(f"Rozmiar (wide format): {df_wages_wide.shape}")
 
 # Konwertuj do long format
@@ -253,8 +261,8 @@ df_wages_powiaty = filter_powiaty_only(df_wages_long)
 print(f"Liczba powiatów: {df_wages_powiaty['powiat_code'].nunique()}")
 
 # Zapisz
-df_wages_long.to_csv('./output/socio/wages_all_regions.csv', index=False)
-df_wages_powiaty.to_csv('./output/socio/wages_powiaty.csv', index=False)
+df_wages_long.to_csv(PROJECT_ROOT / 'output' / 'socio' / 'wages_all_regions.csv', index=False)
+df_wages_powiaty.to_csv(PROJECT_ROOT / 'output' / 'socio' / 'wages_powiaty.csv', index=False)
 
 # ========================================================================
 # 3. POŁĄCZONE DANE SPOŁECZNO-EKONOMICZNE
@@ -265,8 +273,8 @@ print("3. ŁĄCZENIE DANYCH")
 print("-"*80)
 
 df_socioeconomic = merge_socioeconomic_data(
-    './output/socio/unemployment_powiaty.csv',
-    './output/socio/wages_powiaty.csv'
+    PROJECT_ROOT / 'output' / 'socio' / 'unemployment_powiaty.csv',
+    PROJECT_ROOT / 'output' / 'socio' / 'wages_powiaty.csv'
 )
 
 print(f"Rozmiar połączonego datasetu: {df_socioeconomic.shape}")
@@ -280,7 +288,7 @@ print(f"  Braki unemployment_rate: {df_socioeconomic['unemployment_rate'].isna()
 print(f"  Braki wage_index: {df_socioeconomic['wage_index'].isna().sum()}")
 
 # Zapisz
-df_socioeconomic.to_csv('./output/socio/economic_powiaty.csv', index=False)
+df_socioeconomic.to_csv(PROJECT_ROOT / 'output' / 'socio' / 'economic_powiaty.csv', index=False)
 
 # ========================================================================
 # PODSUMOWANIE
