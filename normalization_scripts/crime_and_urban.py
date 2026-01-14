@@ -226,9 +226,13 @@ print(bottom10)
 # Zapisz do plików
 print("\n" + "="*80)
 print("Zapisywanie do plików...")
+
+# Upewnij się, że powiat_code jest stringiem przed zapisem
+df_with_stats['powiat_code'] = df_with_stats['powiat_code'].astype(str)
 df_with_stats.to_csv(PROJECT_ROOT / 'output' / 'integrated_crime_data.csv', index=False)
 
 # Dodatkowo: tylko 2024 rok (dla szybkich analiz)
+df_2024['powiat_code'] = df_2024['powiat_code'].astype(str)
 df_2024.to_csv(PROJECT_ROOT / 'output' / 'integrated_crime_data_2024.csv', index=False)
 
 print("\n✓ Gotowe!")

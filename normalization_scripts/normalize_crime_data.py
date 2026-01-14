@@ -63,6 +63,16 @@ def load_crime_data(file_path: str) -> pd.DataFrame:
     Returns:
         DataFrame z surowymi danymi (wide format)
     """
+    # FIX: Явно добавляем проблемный ключ из Excel
+    global CRIME_CATEGORIES_MAP
+    df_header_temp = pd.read_excel(file_path, sheet_name='TABLICA', nrows=2, header=None)
+    row0_temp = df_header_temp.iloc[0].ffill()
+    for i in range(2, len(row0_temp)):
+        cat = str(row0_temp.iloc[i])
+        if 'bezpieczeństwu powszechnemu i bezpieczeństwu w komunikacji na 1000 mieszkańców' in cat:
+            CRIME_CATEGORIES_MAP[cat] = 'rate_per_1000_public_safety'
+            break
+
     # Wczytaj header (2 wiersze)
     df_header = pd.read_excel(file_path, sheet_name='TABLICA', nrows=2, header=None)
 
@@ -72,7 +82,12 @@ def load_crime_data(file_path: str) -> pd.DataFrame:
 
     # Wczytaj dane (od 3 wiersza) - KOD JAKO STRING!
     df_data = pd.read_excel(file_path, sheet_name='TABLICA', skiprows=2, dtype={0: str})
-    
+
+    # Upewnij się, że kody są stringami i mają ведущие нули (7 cyfr)
+    df_data.iloc[:, 0] = df_data.iloc[:, 0].astype(str).str.strip()
+    # Jeśli kod jest krótszy niż 7 cyfr, dodaj zera z przodu
+    df_data.iloc[:, 0] = df_data.iloc[:, 0].str.zfill(7)
+
     # Nadaj właściwe nazwy kolumnom
     new_columns = []
     for i in range(len(df_data.columns)):
@@ -86,7 +101,7 @@ def load_crime_data(file_path: str) -> pd.DataFrame:
             
             # Użyj krótkiej nazwy kategorii
             category_short = CRIME_CATEGORIES_MAP.get(category, category)
-            
+
             new_columns.append(f"{category_short}_{year}")
     
     df_data.columns = new_columns
@@ -128,7 +143,8 @@ def convert_to_long_format(df_wide: pd.DataFrame) -> pd.DataFrame:
     # Konwersja typów
     df_long['year'] = df_long['year'].astype(int)
     df_long['value'] = pd.to_numeric(df_long['value'], errors='coerce')
-    # region_code pozostaje jako string (zachowuje początkowe zera)
+    # region_code MUSI być string (zachowuje początkowe zera)
+    df_long['region_code'] = df_long['region_code'].astype(str)
     
     # Określ typ metryki
     def get_metric_type(category):
@@ -166,18 +182,19 @@ def convert_to_long_format(df_wide: pd.DataFrame) -> pd.DataFrame:
 
 def filter_powiaty_only(df_long: pd.DataFrame) -> pd.DataFrame:
     """
-    Filtruje dane - zostawia tylko powiaty (bez POLSKA i województw)
+    Filtruje dane - zostawia tylko powiaty i województwa (bez POLSKA)
 
     Args:
         df_long: DataFrame w long format
 
     Returns:
-        DataFrame tylko z powiatami (region_code >= 0200000)
+        DataFrame tylko z powiatami i województwami (region_code != '0000000')
     """
-    # Kody powiatów zaczynają się od 0200000 (7 cyfr)
+    # Kody: POLSKA = '0000000', województwa = '0200000'-'0329999', powiaty = '0201000'-'0329999'
     # Filtruj: wykluczamy POLSKA ('0000000') ale zachowujemy województwa i powiaty
     df_powiaty = df_long[
         (df_long['region_code'] != '0000000') &
+        (df_long['region_code'] != '0') &
         (df_long['region_code'].notna())
     ].copy()
 
@@ -312,6 +329,13 @@ print(f"  Max: {df_total['total_crimes'].max():.0f}")
 # 7. Zapisz do plików
 print("\n" + "="*80)
 print("Zapisywanie do plików CSV...")
+
+# Upewnij się, że region_code jest stringiem przed zapisem
+df_long['region_code'] = df_long['region_code'].astype(str)
+df_powiaty['region_code'] = df_powiaty['region_code'].astype(str)
+df_total['region_code'] = df_total['region_code'].astype(str)
+for key in df_by_metric:
+    df_by_metric[key]['region_code'] = df_by_metric[key]['region_code'].astype(str)
 
 # Pełne dane - wszystkie regiony
 df_long.to_csv(PROJECT_ROOT / 'output' / 'crime' / 'crime_long_format_all_regions.csv', index=False)

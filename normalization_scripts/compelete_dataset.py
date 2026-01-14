@@ -183,12 +183,16 @@ print("\n" + "="*80)
 print("ZAPISYWANIE PLIKÓW")
 print("="*80)
 
+# Upewnij się, że powiat_code jest stringiem przed zapisem
+df_enhanced['powiat_code'] = df_enhanced['powiat_code'].astype(str)
+
 # Pełny dataset
 df_enhanced.to_csv(PROJECT_ROOT / 'output' / 'complete_dataset.csv', index=False)
 print("  ✓ complete_dataset.csv")
 
 # Tylko 2024 rok
 df_2024 = df_enhanced[df_enhanced['year'] == 2024]
+df_2024['powiat_code'] = df_2024['powiat_code'].astype(str)
 df_2024.to_csv(PROJECT_ROOT / 'output' / 'complete_dataset_2024.csv', index=False)
 print("  ✓ complete_dataset_2024.csv")
 
@@ -197,6 +201,7 @@ df_ml = df_enhanced.dropna(subset=[
     'crime_rate_per_100k', 'population_density', 'youth_ratio',
     'unemployment_rate', 'wage_index', 'gender_ratio', 'population_change_pct'
 ])
+df_ml['powiat_code'] = df_ml['powiat_code'].astype(str)
 df_ml.to_csv(PROJECT_ROOT / 'output' / 'ml_ready_dataset.csv', index=False)
 print(f"  ✓ ml_ready_dataset.csv ({len(df_ml)} wierszy - bez braków)")
 

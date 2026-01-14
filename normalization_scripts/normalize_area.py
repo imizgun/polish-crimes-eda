@@ -27,7 +27,11 @@ def load_area_data(file_path: str) -> pd.DataFrame:
 
     # Wczytaj dane (od 3 wiersza) - KOD JAKO STRING!
     df_data = pd.read_excel(file_path, sheet_name='TABLICA', skiprows=2, dtype={0: str})
-    
+
+    # Upewnij się, że kody są stringami i mają ведущие нули (7 cyfr)
+    df_data.iloc[:, 0] = df_data.iloc[:, 0].astype(str).str.strip()
+    df_data.iloc[:, 0] = df_data.iloc[:, 0].str.zfill(7)
+
     # Przygotuj nazwy kolumn
     new_columns = ['powiat_code', 'powiat_name']
     
@@ -247,6 +251,8 @@ try:
     print(f"  Max: {df_with_density['population_density'].max():.2f} osób/km²")
     
     # Zapisz połączone dane
+    # Upewnij się, że powiat_code jest stringiem
+    df_with_density['powiat_code'] = df_with_density['powiat_code'].astype(str)
     df_with_density.to_csv(PROJECT_ROOT / 'output' / 'population' / 'population_with_density.csv', index=False)
     print("\n✓ Zapisano: population_with_density.csv")
 
@@ -256,6 +262,12 @@ except FileNotFoundError:
 # 7. Zapisz do plików
 print("\n" + "="*80)
 print("Zapisywanie do plików CSV...")
+
+# Upewnij się, że powiat_code jest stringiem przed zapisem
+df_long['powiat_code'] = df_long['powiat_code'].astype(str)
+df_2024['powiat_code'] = df_2024['powiat_code'].astype(str)
+stats['powiat_code'] = stats['powiat_code'].astype(str)
+
 df_long.to_csv(PROJECT_ROOT / 'output' / 'area' / 'area_long_format.csv', index=False)
 df_2024.to_csv(PROJECT_ROOT / 'output' / 'area' / 'area_2024.csv', index=False)
 stats.to_csv(PROJECT_ROOT / 'output' / 'area' / 'area_statistics.csv', index=False)

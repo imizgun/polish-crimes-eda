@@ -32,7 +32,12 @@ def load_population_data(file_path: str) -> pd.DataFrame:
 
     # Wczytaj dane właściwe (od 4 wiersza) - KOD JAKO STRING!
     df_data = pd.read_excel(file_path, sheet_name='TABLICA', skiprows=3, dtype={0: str})
-    
+
+    # Upewnij się, że kody są stringami i mają ведущие нули (7 cyfr)
+    df_data.iloc[:, 0] = df_data.iloc[:, 0].astype(str).str.strip()
+    # Jeśli kod jest krótszy niż 7 cyfr, dodaj zera z przodu
+    df_data.iloc[:, 0] = df_data.iloc[:, 0].str.zfill(7)
+
     # Nadaj właściwe nazwy kolumnom
     new_columns = []
     for i in range(len(df_data.columns)):
@@ -314,6 +319,14 @@ print(df_with_changes.head(15))
 
 # 5. Zapisz do plików
 print("\nZapisywanie do plików CSV...")
+
+# Upewnij się, że powiat_code jest stringiem przed zapisem
+df_long['powiat_code'] = df_long['powiat_code'].astype(str)
+df_total['powiat_code'] = df_total['powiat_code'].astype(str)
+df_gender['powiat_code'] = df_gender['powiat_code'].astype(str)
+df_age['powiat_code'] = df_age['powiat_code'].astype(str)
+df_with_changes['powiat_code'] = df_with_changes['powiat_code'].astype(str)
+
 df_long.to_csv(PROJECT_ROOT / 'output' / 'population' / 'population_long_format.csv', index=False)
 df_total.to_csv(PROJECT_ROOT / 'output' / 'population' / 'population_total.csv', index=False)
 df_gender.to_csv(PROJECT_ROOT / 'output' / 'population' / 'population_gender.csv', index=False)

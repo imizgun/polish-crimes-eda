@@ -28,7 +28,11 @@ def load_unemployment_data(file_path: str) -> pd.DataFrame:
 
     # Wczytaj dane (od 3 wiersza) - KOD JAKO STRING!
     df_data = pd.read_excel(file_path, sheet_name='TABLICA', skiprows=2, dtype={0: str})
-    
+
+    # Upewnij się, że kody są stringami i mają ведущие нули (7 cyfr)
+    df_data.iloc[:, 0] = df_data.iloc[:, 0].astype(str).str.strip()
+    df_data.iloc[:, 0] = df_data.iloc[:, 0].str.zfill(7)
+
     # Przygotuj nazwy kolumn
     # Lata są w wierszu 1 (indeks 1), kolumny 2-13
     new_columns = ['region_code', 'region_name']
@@ -58,7 +62,11 @@ def load_wages_data(file_path: str) -> pd.DataFrame:
 
     # Wczytaj dane (od 3 wiersza) - KOD JAKO STRING!
     df_data = pd.read_excel(file_path, sheet_name='TABLICA', skiprows=2, dtype={0: str})
-    
+
+    # Upewnij się, że kody są stringami i mają ведущие нули (7 cyfr)
+    df_data.iloc[:, 0] = df_data.iloc[:, 0].astype(str).str.strip()
+    df_data.iloc[:, 0] = df_data.iloc[:, 0].str.zfill(7)
+
     # Przygotuj nazwy kolumn
     new_columns = ['region_code', 'region_name']
     
@@ -226,6 +234,10 @@ df_unemp_powiaty = filter_powiaty_only(df_unemp_long)
 print(f"Liczba powiatów: {df_unemp_powiaty['powiat_code'].nunique()}")
 
 # Zapisz
+# Upewnij się, że kody są stringami
+df_unemp_long['region_code'] = df_unemp_long['region_code'].astype(str)
+df_unemp_powiaty['powiat_code'] = df_unemp_powiaty['powiat_code'].astype(str)
+
 df_unemp_long.to_csv(PROJECT_ROOT / 'output' / 'socio' / 'unemployment_all_regions.csv', index=False)
 df_unemp_powiaty.to_csv(PROJECT_ROOT / 'output' / 'socio' / 'unemployment_powiaty.csv', index=False)
 
@@ -261,6 +273,10 @@ df_wages_powiaty = filter_powiaty_only(df_wages_long)
 print(f"Liczba powiatów: {df_wages_powiaty['powiat_code'].nunique()}")
 
 # Zapisz
+# Upewnij się, że kody są stringami
+df_wages_long['region_code'] = df_wages_long['region_code'].astype(str)
+df_wages_powiaty['powiat_code'] = df_wages_powiaty['powiat_code'].astype(str)
+
 df_wages_long.to_csv(PROJECT_ROOT / 'output' / 'socio' / 'wages_all_regions.csv', index=False)
 df_wages_powiaty.to_csv(PROJECT_ROOT / 'output' / 'socio' / 'wages_powiaty.csv', index=False)
 
@@ -288,6 +304,8 @@ print(f"  Braki unemployment_rate: {df_socioeconomic['unemployment_rate'].isna()
 print(f"  Braki wage_index: {df_socioeconomic['wage_index'].isna().sum()}")
 
 # Zapisz
+# Upewnij się, że kody są stringami
+df_socioeconomic['powiat_code'] = df_socioeconomic['powiat_code'].astype(str)
 df_socioeconomic.to_csv(PROJECT_ROOT / 'output' / 'socio' / 'economic_powiaty.csv', index=False)
 
 # ========================================================================
