@@ -18,6 +18,24 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).parent.parent
 
 
+# Szczegółowe kategorie przestępstw (bez pokrywania się)
+# NIE używamy kategorii zbiorczych:
+# - 'criminal' zawiera: life_health + property + freedom_sexual + inne
+# - 'public_safety' zawiera: traffic + inne
+# - 'total' to suma wszystkich
+DETAILED_CATEGORIES = [
+    'life_health',      # przeciwko życiu i zdrowiu
+    'property',         # przeciwko mieniu
+    'freedom_sexual',   # przeciwko wolności seksualnej
+    'economic',         # o charakterze gospodarczym
+    'traffic',          # drogowe
+    'family'            # przeciwko rodzinie
+]
+
+# Kategorie zbiorcze do wykluczenia
+AGGREGATE_CATEGORIES = ['criminal', 'public_safety', 'total']
+
+
 # Mapowanie kategorii do krótszych nazw (angielski)
 CRIME_CATEGORIES_MAP = {
     'o charakterze kryminalnym': 'criminal',
@@ -204,10 +222,10 @@ def filter_powiaty_only(df_long: pd.DataFrame) -> pd.DataFrame:
 def pivot_by_metric_type(df_long: pd.DataFrame) -> Dict[str, pd.DataFrame]:
     """
     Tworzy osobne tabele dla każdego typu metryki
-    
+
     Args:
         df_long: DataFrame w long format
-    
+
     Returns:
         Słownik z 3 DataFrame:
         - 'count': liczba przestępstw
@@ -215,39 +233,54 @@ def pivot_by_metric_type(df_long: pd.DataFrame) -> Dict[str, pd.DataFrame]:
         - 'rate_per_1000': przestępstwa na 1000 mieszkańców
     """
     results = {}
-    
+
     for metric_type in ['count', 'detection_rate', 'rate_per_1000']:
         df_metric = df_long[df_long['metric_type'] == metric_type].copy()
         df_metric = df_metric.drop('metric_type', axis=1)
         results[metric_type] = df_metric
-    
+
     return results
+
+
+def filter_detailed_categories(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Filtruje dane - zostawia tylko szczegółowe kategorie (bez kategorii zbiorczych).
+
+    Usuwa:
+    - 'criminal' (zawiera life_health + property + freedom_sexual)
+    - 'public_safety' (zawiera traffic + inne)
+    - 'total' (suma wszystkich)
+
+    Args:
+        df: DataFrame z kolumną 'crime_category'
+
+    Returns:
+        DataFrame tylko ze szczegółowymi kategoriami
+    """
+    return df[df['crime_category'].isin(DETAILED_CATEGORIES)].copy()
 
 
 def create_aggregated_counts(df_counts: pd.DataFrame) -> pd.DataFrame:
     """
-    Tworzy zagregowaną tabelę z całkowitą liczbą przestępstw
-    (suma wszystkich kategorii)
-    
+    Tworzy zagregowaną tabelę z całkowitą liczbą przestępstw.
+    Używa globalnej stałej DETAILED_CATEGORIES.
+
     Args:
         df_counts: DataFrame z liczbami przestępstw (metric_type='count')
-    
+
     Returns:
         DataFrame z kolumnami: region_code, region_name, year, total_crimes
     """
-    # Filtruj główne kategorie (bez detection_rate i rate_per_1000)
-    main_categories = ['criminal', 'economic', 'traffic', 'life_health', 
-                      'property', 'freedom_sexual', 'family', 'public_safety']
-    
-    df_main = df_counts[df_counts['crime_category'].isin(main_categories)].copy()
-    
+    # Filtruj tylko szczegółowe kategorie
+    df_main = filter_detailed_categories(df_counts)
+
     # Agreguj
     df_agg = df_main.groupby(['region_code', 'region_name', 'year'], as_index=False).agg({
         'value': 'sum'
     })
-    
+
     df_agg.rename(columns={'value': 'total_crimes'}, inplace=True)
-    
+
     return df_agg
 
 
@@ -326,33 +359,49 @@ print(f"  Mediana: {df_total['total_crimes'].median():.0f}")
 print(f"  Min: {df_total['total_crimes'].min():.0f}")
 print(f"  Max: {df_total['total_crimes'].max():.0f}")
 
-# 7. Zapisz do plików
+# 7. Filtruj kategorie zbiorcze - zostawiamy tylko szczegółowe
+print("\n" + "="*80)
+print("Filtrowanie kategorii zbiorczych...")
+print(f"Szczegółowe kategorie: {DETAILED_CATEGORIES}")
+
+df_long_filtered = filter_detailed_categories(df_long)
+df_powiaty_filtered = filter_detailed_categories(df_powiaty)
+
+# Filtruj też df_by_metric
+df_by_metric_filtered = {}
+for key in df_by_metric:
+    df_by_metric_filtered[key] = filter_detailed_categories(df_by_metric[key])
+
+print(f"  df_long: {len(df_long)} -> {len(df_long_filtered)} wierszy")
+print(f"  df_powiaty: {len(df_powiaty)} -> {len(df_powiaty_filtered)} wierszy")
+
+# 8. Zapisz do plików
 print("\n" + "="*80)
 print("Zapisywanie do plików CSV...")
 
 # Upewnij się, że region_code jest stringiem przed zapisem
-df_long['region_code'] = df_long['region_code'].astype(str)
-df_powiaty['region_code'] = df_powiaty['region_code'].astype(str)
+df_long_filtered['region_code'] = df_long_filtered['region_code'].astype(str)
+df_powiaty_filtered['region_code'] = df_powiaty_filtered['region_code'].astype(str)
 df_total['region_code'] = df_total['region_code'].astype(str)
-for key in df_by_metric:
-    df_by_metric[key]['region_code'] = df_by_metric[key]['region_code'].astype(str)
+for key in df_by_metric_filtered:
+    df_by_metric_filtered[key]['region_code'] = df_by_metric_filtered[key]['region_code'].astype(str)
 
-# Pełne dane - wszystkie regiony
-df_long.to_csv(PROJECT_ROOT / 'output' / 'crime' / 'crime_long_format_all_regions.csv', index=False)
+# Pełne dane - wszystkie regiony (tylko szczegółowe kategorie)
+df_long_filtered.to_csv(PROJECT_ROOT / 'output' / 'crime' / 'crime_long_format_all_regions.csv', index=False)
 
-# Tylko powiaty
-df_powiaty.to_csv(PROJECT_ROOT / 'output' / 'crime' / 'crime_long_format_powiaty.csv', index=False)
+# Tylko powiaty (tylko szczegółowe kategorie)
+df_powiaty_filtered.to_csv(PROJECT_ROOT / 'output' / 'crime' / 'crime_long_format_powiaty.csv', index=False)
 
-# Według typu metryki (tylko powiaty)
-df_by_metric['count'].to_csv(PROJECT_ROOT / 'output' / 'crime' / 'crime_counts_powiaty.csv', index=False)
-df_by_metric['detection_rate'].to_csv(PROJECT_ROOT / 'output' / 'crime' / 'crime_detection_rates_powiaty.csv', index=False)
-df_by_metric['rate_per_1000'].to_csv(PROJECT_ROOT / 'output' / 'crime' / 'crime_rates_per_1000_powiaty.csv', index=False)
+# Według typu metryki (tylko powiaty, tylko szczegółowe kategorie)
+df_by_metric_filtered['count'].to_csv(PROJECT_ROOT / 'output' / 'crime' / 'crime_counts_powiaty.csv', index=False)
+df_by_metric_filtered['detection_rate'].to_csv(PROJECT_ROOT / 'output' / 'crime' / 'crime_detection_rates_powiaty.csv', index=False)
+df_by_metric_filtered['rate_per_1000'].to_csv(PROJECT_ROOT / 'output' / 'crime' / 'crime_rates_per_1000_powiaty.csv', index=False)
 
 # Zagregowana tabela
 df_total.to_csv(PROJECT_ROOT / 'output' / 'crime' / 'crime_total_powiaty.csv', index=False)
 
 print("\n✓ Gotowe!")
-print("\nUzyskane pliki:")
+print("\nUzyskane pliki (tylko szczegółowe kategorie, bez 'criminal'/'public_safety'):")
 print("  - crime_long_format_all_regions.csv (wszystkie regiony)")
 print("  - crime_long_format_powiaty.csv (tylko powiaty)")
 print("  - crime_counts_powiaty.csv (liczby przestępstw)")
